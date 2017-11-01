@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005DA0BC1FA9E93300B4A013 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA0BB1FA9E93300B4A013 /* AppDelegate.m */; };
+		005DA0BF1FA9E93300B4A013 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA0BE1FA9E93300B4A013 /* ViewController.m */; };
+		005DA0C21FA9E93400B4A013 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 005DA0C01FA9E93400B4A013 /* Main.storyboard */; };
+		005DA0C41FA9E93400B4A013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 005DA0C31FA9E93400B4A013 /* Assets.xcassets */; };
+		005DA0C71FA9E93400B4A013 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 005DA0C51FA9E93400B4A013 /* LaunchScreen.storyboard */; };
+		005DA0CA1FA9E93400B4A013 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA0C91FA9E93400B4A013 /* main.m */; };
+		005DA0D41FA9E93400B4A013 /* NiuLangSportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA0D31FA9E93400B4A013 /* NiuLangSportTests.m */; };
+		005DA0DF1FA9E93400B4A013 /* NiuLangSportUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA0DE1FA9E93400B4A013 /* NiuLangSportUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		005DA0D01FA9E93400B4A013 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 005DA0AF1FA9E93300B4A013 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 005DA0B61FA9E93300B4A013;
+			remoteInfo = NiuLangSport;
+		};
+		005DA0DB1FA9E93400B4A013 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 005DA0AF1FA9E93300B4A013 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 005DA0B61FA9E93300B4A013;
+			remoteInfo = NiuLangSport;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		005DA0B71FA9E93300B4A013 /* NiuLangSport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiuLangSport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		005DA0BA1FA9E93300B4A013 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		005DA0BB1FA9E93300B4A013 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		005DA0BD1FA9E93300B4A013 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		005DA0BE1FA9E93300B4A013 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		005DA0C11FA9E93400B4A013 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		005DA0C31FA9E93400B4A013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		005DA0C61FA9E93400B4A013 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		005DA0C81FA9E93400B4A013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		005DA0C91FA9E93400B4A013 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		005DA0CF1FA9E93400B4A013 /* NiuLangSportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NiuLangSportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		005DA0D31FA9E93400B4A013 /* NiuLangSportTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NiuLangSportTests.m; sourceTree = "<group>"; };
+		005DA0D51FA9E93400B4A013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		005DA0DA1FA9E93400B4A013 /* NiuLangSportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NiuLangSportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		005DA0DE1FA9E93400B4A013 /* NiuLangSportUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NiuLangSportUITests.m; sourceTree = "<group>"; };
+		005DA0E01FA9E93400B4A013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		005DA0B41FA9E93300B4A013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		005DA0CC1FA9E93400B4A013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		005DA0D71FA9E93400B4A013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		005DA0AE1FA9E93300B4A013 = {
+			isa = PBXGroup;
+			children = (
+				005DA0B91FA9E93300B4A013 /* NiuLangSport */,
+				005DA0D21FA9E93400B4A013 /* NiuLangSportTests */,
+				005DA0DD1FA9E93400B4A013 /* NiuLangSportUITests */,
+				005DA0B81FA9E93300B4A013 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		005DA0B81FA9E93300B4A013 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				005DA0B71FA9E93300B4A013 /* NiuLangSport.app */,
+				005DA0CF1FA9E93400B4A013 /* NiuLangSportTests.xctest */,
+				005DA0DA1FA9E93400B4A013 /* NiuLangSportUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		005DA0B91FA9E93300B4A013 /* NiuLangSport */ = {
+			isa = PBXGroup;
+			children = (
+				005DA0BA1FA9E93300B4A013 /* AppDelegate.h */,
+				005DA0BB1FA9E93300B4A013 /* AppDelegate.m */,
+				005DA0BD1FA9E93300B4A013 /* ViewController.h */,
+				005DA0BE1FA9E93300B4A013 /* ViewController.m */,
+				005DA0C01FA9E93400B4A013 /* Main.storyboard */,
+				005DA0C31FA9E93400B4A013 /* Assets.xcassets */,
+				005DA0C51FA9E93400B4A013 /* LaunchScreen.storyboard */,
+				005DA0C81FA9E93400B4A013 /* Info.plist */,
+				005DA0C91FA9E93400B4A013 /* main.m */,
+			);
+			path = NiuLangSport;
+			sourceTree = "<group>";
+		};
+		005DA0D21FA9E93400B4A013 /* NiuLangSportTests */ = {
+			isa = PBXGroup;
+			children = (
+				005DA0D31FA9E93400B4A013 /* NiuLangSportTests.m */,
+				005DA0D51FA9E93400B4A013 /* Info.plist */,
+			);
+			path = NiuLangSportTests;
+			sourceTree = "<group>";
+		};
+		005DA0DD1FA9E93400B4A013 /* NiuLangSportUITests */ = {
+			isa = PBXGroup;
+			children = (
+				005DA0DE1FA9E93400B4A013 /* NiuLangSportUITests.m */,
+				005DA0E01FA9E93400B4A013 /* Info.plist */,
+			);
+			path = NiuLangSportUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		005DA0B61FA9E93300B4A013 /* NiuLangSport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 005DA0E31FA9E93400B4A013 /* Build configuration list for PBXNativeTarget "NiuLangSport" */;
+			buildPhases = (
+				005DA0B31FA9E93300B4A013 /* Sources */,
+				005DA0B41FA9E93300B4A013 /* Frameworks */,
+				005DA0B51FA9E93300B4A013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NiuLangSport;
+			productName = NiuLangSport;
+			productReference = 005DA0B71FA9E93300B4A013 /* NiuLangSport.app */;
+			productType = "com.apple.product-type.application";
+		};
+		005DA0CE1FA9E93400B4A013 /* NiuLangSportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 005DA0E61FA9E93400B4A013 /* Build configuration list for PBXNativeTarget "NiuLangSportTests" */;
+			buildPhases = (
+				005DA0CB1FA9E93400B4A013 /* Sources */,
+				005DA0CC1FA9E93400B4A013 /* Frameworks */,
+				005DA0CD1FA9E93400B4A013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				005DA0D11FA9E93400B4A013 /* PBXTargetDependency */,
+			);
+			name = NiuLangSportTests;
+			productName = NiuLangSportTests;
+			productReference = 005DA0CF1FA9E93400B4A013 /* NiuLangSportTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		005DA0D91FA9E93400B4A013 /* NiuLangSportUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 005DA0E91FA9E93400B4A013 /* Build configuration list for PBXNativeTarget "NiuLangSportUITests" */;
+			buildPhases = (
+				005DA0D61FA9E93400B4A013 /* Sources */,
+				005DA0D71FA9E93400B4A013 /* Frameworks */,
+				005DA0D81FA9E93400B4A013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				005DA0DC1FA9E93400B4A013 /* PBXTargetDependency */,
+			);
+			name = NiuLangSportUITests;
+			productName = NiuLangSportUITests;
+			productReference = 005DA0DA1FA9E93400B4A013 /* NiuLangSportUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		005DA0AF1FA9E93300B4A013 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "shi ren";
+				TargetAttributes = {
+					005DA0B61FA9E93300B4A013 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					005DA0CE1FA9E93400B4A013 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 005DA0B61FA9E93300B4A013;
+					};
+					005DA0D91FA9E93400B4A013 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 005DA0B61FA9E93300B4A013;
+					};
+				};
+			};
+			buildConfigurationList = 005DA0B21FA9E93300B4A013 /* Build configuration list for PBXProject "NiuLangSport" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 005DA0AE1FA9E93300B4A013;
+			productRefGroup = 005DA0B81FA9E93300B4A013 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				005DA0B61FA9E93300B4A013 /* NiuLangSport */,
+				005DA0CE1FA9E93400B4A013 /* NiuLangSportTests */,
+				005DA0D91FA9E93400B4A013 /* NiuLangSportUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		005DA0B51FA9E93300B4A013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005DA0C71FA9E93400B4A013 /* LaunchScreen.storyboard in Resources */,
+				005DA0C41FA9E93400B4A013 /* Assets.xcassets in Resources */,
+				005DA0C21FA9E93400B4A013 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		005DA0CD1FA9E93400B4A013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		005DA0D81FA9E93400B4A013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		005DA0B31FA9E93300B4A013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005DA0BF1FA9E93300B4A013 /* ViewController.m in Sources */,
+				005DA0CA1FA9E93400B4A013 /* main.m in Sources */,
+				005DA0BC1FA9E93300B4A013 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		005DA0CB1FA9E93400B4A013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005DA0D41FA9E93400B4A013 /* NiuLangSportTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		005DA0D61FA9E93400B4A013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005DA0DF1FA9E93400B4A013 /* NiuLangSportUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		005DA0D11FA9E93400B4A013 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 005DA0B61FA9E93300B4A013 /* NiuLangSport */;
+			targetProxy = 005DA0D01FA9E93400B4A013 /* PBXContainerItemProxy */;
+		};
+		005DA0DC1FA9E93400B4A013 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 005DA0B61FA9E93300B4A013 /* NiuLangSport */;
+			targetProxy = 005DA0DB1FA9E93400B4A013 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		005DA0C01FA9E93400B4A013 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				005DA0C11FA9E93400B4A013 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		005DA0C51FA9E93400B4A013 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				005DA0C61FA9E93400B4A013 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		005DA0E11FA9E93400B4A013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		005DA0E21FA9E93400B4A013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		005DA0E41FA9E93400B4A013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NiuLangSport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shililuapp.NiuLangSport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		005DA0E51FA9E93400B4A013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NiuLangSport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shililuapp.NiuLangSport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		005DA0E71FA9E93400B4A013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NiuLangSportTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shililuapp.NiuLangSportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NiuLangSport.app/NiuLangSport";
+			};
+			name = Debug;
+		};
+		005DA0E81FA9E93400B4A013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NiuLangSportTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shililuapp.NiuLangSportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NiuLangSport.app/NiuLangSport";
+			};
+			name = Release;
+		};
+		005DA0EA1FA9E93400B4A013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NiuLangSportUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shililuapp.NiuLangSportUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NiuLangSport;
+			};
+			name = Debug;
+		};
+		005DA0EB1FA9E93400B4A013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NiuLangSportUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shililuapp.NiuLangSportUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NiuLangSport;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		005DA0B21FA9E93300B4A013 /* Build configuration list for PBXProject "NiuLangSport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				005DA0E11FA9E93400B4A013 /* Debug */,
+				005DA0E21FA9E93400B4A013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		005DA0E31FA9E93400B4A013 /* Build configuration list for PBXNativeTarget "NiuLangSport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				005DA0E41FA9E93400B4A013 /* Debug */,
+				005DA0E51FA9E93400B4A013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		005DA0E61FA9E93400B4A013 /* Build configuration list for PBXNativeTarget "NiuLangSportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				005DA0E71FA9E93400B4A013 /* Debug */,
+				005DA0E81FA9E93400B4A013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		005DA0E91FA9E93400B4A013 /* Build configuration list for PBXNativeTarget "NiuLangSportUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				005DA0EA1FA9E93400B4A013 /* Debug */,
+				005DA0EB1FA9E93400B4A013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 005DA0AF1FA9E93300B4A013 /* Project object */;
+}
