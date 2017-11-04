@@ -810,7 +810,7 @@
 				TargetAttributes = {
 					005DA0B61FA9E93300B4A013 = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					005DA0CE1FA9E93400B4A013 = {
 						CreatedOnToolsVersion = 9.0;
@@ -1180,11 +1180,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Peng Zeng (2CXQDXU7FY)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Peng Zeng (2CXQDXU7FY)";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5EMFG9Z439;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/shiren/Desktop/NiuLangSport/NiuLangSport/Macro/NLHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NiuLangSport/Macro/NLHeader.pch";
 				INFOPLIST_FILE = NiuLangSport/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1199,10 +1199,10 @@
 					"-framework",
 					"\"ReactiveObjC\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shililuapp.houseplatform;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bjhl.pay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "690c51ae-fc88-4cd9-b2bf-e28640918046";
-				PROVISIONING_PROFILE_SPECIFIER = fangpingtai_wangwang_develop_profile;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
@@ -1215,10 +1215,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Peng Zeng (2CXQDXU7FY)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5EMFG9Z439;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/shiren/Desktop/NiuLangSport/NiuLangSport/Macro/NLHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NiuLangSport/Macro/NLHeader.pch";
 				INFOPLIST_FILE = NiuLangSport/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1233,10 +1233,10 @@
 					"-framework",
 					"\"ReactiveObjC\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shililuapp.houseplatform;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bjhl.pay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "690c51ae-fc88-4cd9-b2bf-e28640918046";
-				PROVISIONING_PROFILE_SPECIFIER = fangpingtai_wangwang_develop_profile;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};

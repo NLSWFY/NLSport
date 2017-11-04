@@ -122,7 +122,7 @@
 - (QFBannerFocusView *)headerView {
     if(!_headerView) {
         CGFloat width = SCREEN_W;
-        CGFloat height = 180 * 375 / SCREEN_W;
+        CGFloat height = 180 * SCREEN_W / 375;
         CGRect frame = CGRectMake(0, 0, width, height);
 
         _headerView = [[QFBannerFocusView alloc] initWithFrame:frame];
