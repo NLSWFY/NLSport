@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="PJ2-Zm-EZm" customClass="NLHomepagePartTwo">
+            <rect key="frame" x="0.0" y="0.0" width="516" height="144"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sfb-zX-Rdf">
+                    <rect key="frame" x="3" y="3" width="510" height="138"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_user_icon" translatesAutoresizingMaskIntoConstraints="NO" id="Jrk-Bf-Vo7">
+                            <rect key="frame" x="20" y="10" width="118" height="118"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="Jrk-Bf-Vo7" secondAttribute="height" multiplier="1:1" id="qdN-vD-GxB"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10月21号健身大赛" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IrB-Ce-qXV">
+                            <rect key="frame" x="153" y="15" width="131.5" height="19.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="牛郎智能健身中心" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T2e-O0-gKX">
+                            <rect key="frame" x="153" y="44.5" width="114.5" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="IrB-Ce-qXV" firstAttribute="top" secondItem="Jrk-Bf-Vo7" secondAttribute="top" constant="5" id="Bxs-iZ-bb4"/>
+                        <constraint firstItem="T2e-O0-gKX" firstAttribute="leading" secondItem="IrB-Ce-qXV" secondAttribute="leading" id="Jca-2s-3Av"/>
+                        <constraint firstItem="Jrk-Bf-Vo7" firstAttribute="top" secondItem="Sfb-zX-Rdf" secondAttribute="top" constant="10" id="Ukf-zr-ck5"/>
+                        <constraint firstItem="Jrk-Bf-Vo7" firstAttribute="leading" secondItem="Sfb-zX-Rdf" secondAttribute="leading" constant="20" id="cMB-Wn-Ksk"/>
+                        <constraint firstItem="IrB-Ce-qXV" firstAttribute="leading" secondItem="Jrk-Bf-Vo7" secondAttribute="trailing" constant="15" id="fl8-ft-HTF"/>
+                        <constraint firstAttribute="bottom" secondItem="Jrk-Bf-Vo7" secondAttribute="bottom" constant="10" id="nlZ-ze-Fv8"/>
+                        <constraint firstItem="T2e-O0-gKX" firstAttribute="top" secondItem="IrB-Ce-qXV" secondAttribute="bottom" constant="10" id="zTK-bT-BoK"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="lCornerRadius">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.85490196080000003" green="0.85490196080000003" blue="0.85490196080000003" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Sfb-zX-Rdf" secondAttribute="bottom" constant="3" id="Mfy-hn-ssQ"/>
+                <constraint firstItem="Sfb-zX-Rdf" firstAttribute="top" secondItem="PJ2-Zm-EZm" secondAttribute="top" constant="3" id="Q0X-L2-UIm"/>
+                <constraint firstAttribute="trailing" secondItem="Sfb-zX-Rdf" secondAttribute="trailing" constant="3" id="Yus-Az-hWn"/>
+                <constraint firstItem="Sfb-zX-Rdf" firstAttribute="leading" secondItem="PJ2-Zm-EZm" secondAttribute="leading" constant="3" id="gC6-Xp-ArB"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-45" y="-153"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="home_user_icon" width="110" height="110"/>
+    </resources>
+</document>

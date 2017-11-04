@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NLLoginGuideViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch" translatesAutoresizingMaskIntoConstraints="NO" id="1B1-S0-Vzn">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5N1-YA-moL">
+                    <rect key="frame" x="30" y="593" width="145" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="F8v-1A-k4d"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="手机登录"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="lMasksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="lCornerRadius">
+                            <real key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="lBorderColor">
+                            <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="lBorderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="loginBtnClick:" destination="-1" eventType="touchUpInside" id="PuV-Bl-7BF"/>
+                    </connections>
+                </button>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ojm-qB-cM3">
+                    <rect key="frame" x="200" y="593" width="145" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="ZBs-0B-5Xm"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="注册"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="lMasksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="lCornerRadius">
+                            <real key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="lBorderColor">
+                            <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="lBorderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="registerBtnClick:" destination="-1" eventType="touchUpInside" id="dM6-32-C69"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="1B1-S0-Vzn" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="9zx-hd-6V4"/>
+                <constraint firstItem="5N1-YA-moL" firstAttribute="width" secondItem="Ojm-qB-cM3" secondAttribute="width" id="Lva-ip-uoX"/>
+                <constraint firstAttribute="bottom" secondItem="5N1-YA-moL" secondAttribute="bottom" constant="30" id="Mdn-tb-0Vo"/>
+                <constraint firstItem="5N1-YA-moL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="NDL-Du-qYk"/>
+                <constraint firstItem="Ojm-qB-cM3" firstAttribute="leading" secondItem="5N1-YA-moL" secondAttribute="trailing" constant="25" id="UQJ-fk-2Ms"/>
+                <constraint firstAttribute="bottom" secondItem="1B1-S0-Vzn" secondAttribute="bottom" id="bU8-Lt-6cw"/>
+                <constraint firstAttribute="bottom" secondItem="Ojm-qB-cM3" secondAttribute="bottom" constant="30" id="koq-fQ-oJq"/>
+                <constraint firstAttribute="trailing" secondItem="1B1-S0-Vzn" secondAttribute="trailing" id="nfa-cf-sfC"/>
+                <constraint firstAttribute="trailing" secondItem="Ojm-qB-cM3" secondAttribute="trailing" constant="30" id="oPM-sO-ET9"/>
+                <constraint firstItem="1B1-S0-Vzn" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="yb6-kd-M4g"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="26.5" y="52.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="launch" width="375" height="667"/>
+    </resources>
+</document>

@@ -7,14 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		005DA0BC1FA9E93300B4A013 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA0BB1FA9E93300B4A013 /* AppDelegate.m */; };
-		005DA0BF1FA9E93300B4A013 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA0BE1FA9E93300B4A013 /* ViewController.m */; };
-		005DA0C21FA9E93400B4A013 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 005DA0C01FA9E93400B4A013 /* Main.storyboard */; };
 		005DA0C41FA9E93400B4A013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 005DA0C31FA9E93400B4A013 /* Assets.xcassets */; };
 		005DA0C71FA9E93400B4A013 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 005DA0C51FA9E93400B4A013 /* LaunchScreen.storyboard */; };
 		005DA0CA1FA9E93400B4A013 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA0C91FA9E93400B4A013 /* main.m */; };
 		005DA0D41FA9E93400B4A013 /* NiuLangSportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA0D31FA9E93400B4A013 /* NiuLangSportTests.m */; };
 		005DA0DF1FA9E93400B4A013 /* NiuLangSportUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA0DE1FA9E93400B4A013 /* NiuLangSportUITests.m */; };
+		005DA0F41FA9EDE100B4A013 /* NLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA0F31FA9EDE100B4A013 /* NLAppDelegate.m */; };
+		005DA11D1FAA04E300B4A013 /* NLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA11C1FAA04E200B4A013 /* NLBaseViewController.m */; };
+		005DA1211FAA051B00B4A013 /* NLBaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA11F1FAA051B00B4A013 /* NLBaseTabBarViewController.m */; };
+		005DA1221FAA051B00B4A013 /* NLBaseTabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005DA1201FAA051B00B4A013 /* NLBaseTabBarViewController.xib */; };
+		005DA1251FAA05C800B4A013 /* NLBaseNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA1241FAA05C800B4A013 /* NLBaseNavigationVC.m */; };
+		005DA1281FAA05EC00B4A013 /* NLBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA1271FAA05EC00B4A013 /* NLBaseModel.m */; };
+		005DA12C1FAAA92000B4A013 /* NLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA12A1FAAA92000B4A013 /* NLHomeViewController.m */; };
+		005DA12D1FAAA92000B4A013 /* NLHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005DA12B1FAAA92000B4A013 /* NLHomeViewController.xib */; };
+		005DA1311FAAA94200B4A013 /* NLFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA12F1FAAA94200B4A013 /* NLFindViewController.m */; };
+		005DA1321FAAA94200B4A013 /* NLFindViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005DA1301FAAA94200B4A013 /* NLFindViewController.xib */; };
+		005DA1361FAAA95B00B4A013 /* NLCommunityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA1341FAAA95B00B4A013 /* NLCommunityViewController.m */; };
+		005DA1371FAAA95B00B4A013 /* NLCommunityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005DA1351FAAA95B00B4A013 /* NLCommunityViewController.xib */; };
+		005DA13B1FAAA98500B4A013 /* NLMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA1391FAAA98500B4A013 /* NLMineViewController.m */; };
+		005DA13C1FAAA98500B4A013 /* NLMineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005DA13A1FAAA98500B4A013 /* NLMineViewController.xib */; };
+		005DA1401FAAA9A200B4A013 /* NLMoreFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA13E1FAAA9A200B4A013 /* NLMoreFunctionViewController.m */; };
+		005DA1411FAAA9A200B4A013 /* NLMoreFunctionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005DA13F1FAAA9A200B4A013 /* NLMoreFunctionViewController.xib */; };
+		005DA1501FAAF1C400B4A013 /* UIView+Extension.h in Sources */ = {isa = PBXBuildFile; fileRef = 005DA1461FAAB29900B4A013 /* UIView+Extension.h */; };
+		005DA1511FAAF21D00B4A013 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA1471FAAB29A00B4A013 /* UIView+Extension.m */; };
+		005DA1521FAAF27C00B4A013 /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA14A1FAAB34A00B4A013 /* UIViewController+HUD.m */; };
+		005DA1531FAAF27C00B4A013 /* UIImage+Tint.h in Sources */ = {isa = PBXBuildFile; fileRef = 005DA1481FAAB33800B4A013 /* UIImage+Tint.h */; };
+		005DA1541FAAF27C00B4A013 /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA1491FAAB33900B4A013 /* UIImage+Tint.m */; };
+		005DA1551FAAF27C00B4A013 /* UIBarButtonItem+Extension.h in Sources */ = {isa = PBXBuildFile; fileRef = 005DA1451FAAB1F800B4A013 /* UIBarButtonItem+Extension.h */; };
+		005DA1561FAAF27C00B4A013 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA1441FAAB1F800B4A013 /* UIBarButtonItem+Extension.m */; };
+		005DA1571FAAF28E00B4A013 /* UIViewController+HUD.h in Sources */ = {isa = PBXBuildFile; fileRef = 005DA14B1FAAB34A00B4A013 /* UIViewController+HUD.h */; };
+		005DA15B1FAB048900B4A013 /* NLLoginGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA1591FAB048900B4A013 /* NLLoginGuideViewController.m */; };
+		005DA15C1FAB048900B4A013 /* NLLoginGuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005DA15A1FAB048900B4A013 /* NLLoginGuideViewController.xib */; };
+		005DA15F1FAB147E00B4A013 /* UIView+IBDesignable.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA15E1FAB147E00B4A013 /* UIView+IBDesignable.m */; };
+		005DA1631FAB1A6900B4A013 /* NLRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA1611FAB1A6900B4A013 /* NLRegisterViewController.m */; };
+		005DA1641FAB1A6900B4A013 /* NLRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005DA1621FAB1A6900B4A013 /* NLRegisterViewController.xib */; };
+		005DA1681FAB21AD00B4A013 /* NLGetCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA1661FAB21AD00B4A013 /* NLGetCodeViewController.m */; };
+		005DA1691FAB21AD00B4A013 /* NLGetCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005DA1671FAB21AD00B4A013 /* NLGetCodeViewController.xib */; };
+		005DA1721FABFC7300B4A013 /* NLPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA1701FABFC7300B4A013 /* NLPasswordViewController.m */; };
+		005DA1731FABFC7300B4A013 /* NLPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005DA1711FABFC7300B4A013 /* NLPasswordViewController.xib */; };
+		005DA1771FAC022800B4A013 /* NLChooseSexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA1751FAC022800B4A013 /* NLChooseSexViewController.m */; };
+		005DA1781FAC022800B4A013 /* NLChooseSexViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005DA1761FAC022800B4A013 /* NLChooseSexViewController.xib */; };
+		005DA17C1FAC0E0A00B4A013 /* NLChooseBodyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA17A1FAC0E0A00B4A013 /* NLChooseBodyViewController.m */; };
+		005DA17D1FAC0E0A00B4A013 /* NLChooseBodyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005DA17B1FAC0E0A00B4A013 /* NLChooseBodyViewController.xib */; };
+		005DA1811FAC12AF00B4A013 /* NLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA17F1FAC12AF00B4A013 /* NLLoginViewController.m */; };
+		005DA1821FAC12AF00B4A013 /* NLLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005DA1801FAC12AF00B4A013 /* NLLoginViewController.xib */; };
+		005DA1851FAC4DE500B4A013 /* NLHomepagePartOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA1841FAC4DE500B4A013 /* NLHomepagePartOne.m */; };
+		005DA1871FAC503F00B4A013 /* NLHomepagePartOne.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005DA1861FAC503F00B4A013 /* NLHomepagePartOne.xib */; };
+		005DA18A1FAC61A200B4A013 /* NLHomepagePartTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA1891FAC61A200B4A013 /* NLHomepagePartTwo.m */; };
+		005DA18C1FAC61B300B4A013 /* NLHomepagePartTwo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005DA18B1FAC61B300B4A013 /* NLHomepagePartTwo.xib */; };
+		005DA18F1FAC61D000B4A013 /* NLHomepagePartThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA18E1FAC61D000B4A013 /* NLHomepagePartThree.m */; };
+		005DA1911FAC62E300B4A013 /* NLHomepagePartThree.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005DA1901FAC62E300B4A013 /* NLHomepagePartThree.xib */; };
+		8795A3826D5F48C0B2362ECB /* Pods_NiuLangSport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A033F49DAC41C45D7035B8D0 /* Pods_NiuLangSport.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +79,6 @@
 
 /* Begin PBXFileReference section */
 		005DA0B71FA9E93300B4A013 /* NiuLangSport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiuLangSport.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		005DA0BA1FA9E93300B4A013 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		005DA0BB1FA9E93300B4A013 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		005DA0BD1FA9E93300B4A013 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		005DA0BE1FA9E93300B4A013 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		005DA0C11FA9E93400B4A013 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		005DA0C31FA9E93400B4A013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		005DA0C61FA9E93400B4A013 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		005DA0C81FA9E93400B4A013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +89,76 @@
 		005DA0DA1FA9E93400B4A013 /* NiuLangSportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NiuLangSportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		005DA0DE1FA9E93400B4A013 /* NiuLangSportUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NiuLangSportUITests.m; sourceTree = "<group>"; };
 		005DA0E01FA9E93400B4A013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		005DA0F21FA9EDE100B4A013 /* NLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLAppDelegate.h; sourceTree = "<group>"; };
+		005DA0F31FA9EDE100B4A013 /* NLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLAppDelegate.m; sourceTree = "<group>"; };
+		005DA11B1FAA04E200B4A013 /* NLBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLBaseViewController.h; sourceTree = "<group>"; };
+		005DA11C1FAA04E200B4A013 /* NLBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLBaseViewController.m; sourceTree = "<group>"; };
+		005DA11E1FAA051B00B4A013 /* NLBaseTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLBaseTabBarViewController.h; sourceTree = "<group>"; };
+		005DA11F1FAA051B00B4A013 /* NLBaseTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLBaseTabBarViewController.m; sourceTree = "<group>"; };
+		005DA1201FAA051B00B4A013 /* NLBaseTabBarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NLBaseTabBarViewController.xib; sourceTree = "<group>"; };
+		005DA1231FAA05C800B4A013 /* NLBaseNavigationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLBaseNavigationVC.h; sourceTree = "<group>"; };
+		005DA1241FAA05C800B4A013 /* NLBaseNavigationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLBaseNavigationVC.m; sourceTree = "<group>"; };
+		005DA1261FAA05EC00B4A013 /* NLBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLBaseModel.h; sourceTree = "<group>"; };
+		005DA1271FAA05EC00B4A013 /* NLBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLBaseModel.m; sourceTree = "<group>"; };
+		005DA1291FAAA92000B4A013 /* NLHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLHomeViewController.h; sourceTree = "<group>"; };
+		005DA12A1FAAA92000B4A013 /* NLHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLHomeViewController.m; sourceTree = "<group>"; };
+		005DA12B1FAAA92000B4A013 /* NLHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NLHomeViewController.xib; sourceTree = "<group>"; };
+		005DA12E1FAAA94200B4A013 /* NLFindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLFindViewController.h; sourceTree = "<group>"; };
+		005DA12F1FAAA94200B4A013 /* NLFindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLFindViewController.m; sourceTree = "<group>"; };
+		005DA1301FAAA94200B4A013 /* NLFindViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NLFindViewController.xib; sourceTree = "<group>"; };
+		005DA1331FAAA95B00B4A013 /* NLCommunityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLCommunityViewController.h; sourceTree = "<group>"; };
+		005DA1341FAAA95B00B4A013 /* NLCommunityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLCommunityViewController.m; sourceTree = "<group>"; };
+		005DA1351FAAA95B00B4A013 /* NLCommunityViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NLCommunityViewController.xib; sourceTree = "<group>"; };
+		005DA1381FAAA98500B4A013 /* NLMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLMineViewController.h; sourceTree = "<group>"; };
+		005DA1391FAAA98500B4A013 /* NLMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLMineViewController.m; sourceTree = "<group>"; };
+		005DA13A1FAAA98500B4A013 /* NLMineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NLMineViewController.xib; sourceTree = "<group>"; };
+		005DA13D1FAAA9A200B4A013 /* NLMoreFunctionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLMoreFunctionViewController.h; sourceTree = "<group>"; };
+		005DA13E1FAAA9A200B4A013 /* NLMoreFunctionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLMoreFunctionViewController.m; sourceTree = "<group>"; };
+		005DA13F1FAAA9A200B4A013 /* NLMoreFunctionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NLMoreFunctionViewController.xib; sourceTree = "<group>"; };
+		005DA1441FAAB1F800B4A013 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		005DA1451FAAB1F800B4A013 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		005DA1461FAAB29900B4A013 /* UIView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		005DA1471FAAB29A00B4A013 /* UIView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		005DA1481FAAB33800B4A013 /* UIImage+Tint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tint.h"; sourceTree = "<group>"; };
+		005DA1491FAAB33900B4A013 /* UIImage+Tint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tint.m"; sourceTree = "<group>"; };
+		005DA14A1FAAB34A00B4A013 /* UIViewController+HUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HUD.m"; sourceTree = "<group>"; };
+		005DA14B1FAAB34A00B4A013 /* UIViewController+HUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HUD.h"; sourceTree = "<group>"; };
+		005DA14F1FAAC30C00B4A013 /* NLHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLHeader.pch; sourceTree = "<group>"; };
+		005DA1581FAB048900B4A013 /* NLLoginGuideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLLoginGuideViewController.h; sourceTree = "<group>"; };
+		005DA1591FAB048900B4A013 /* NLLoginGuideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLLoginGuideViewController.m; sourceTree = "<group>"; };
+		005DA15A1FAB048900B4A013 /* NLLoginGuideViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NLLoginGuideViewController.xib; sourceTree = "<group>"; };
+		005DA15D1FAB147500B4A013 /* UIView+IBDesignable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+IBDesignable.h"; sourceTree = "<group>"; };
+		005DA15E1FAB147E00B4A013 /* UIView+IBDesignable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+IBDesignable.m"; sourceTree = "<group>"; };
+		005DA1601FAB1A6900B4A013 /* NLRegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLRegisterViewController.h; sourceTree = "<group>"; };
+		005DA1611FAB1A6900B4A013 /* NLRegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLRegisterViewController.m; sourceTree = "<group>"; };
+		005DA1621FAB1A6900B4A013 /* NLRegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NLRegisterViewController.xib; sourceTree = "<group>"; };
+		005DA1651FAB21AD00B4A013 /* NLGetCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLGetCodeViewController.h; sourceTree = "<group>"; };
+		005DA1661FAB21AD00B4A013 /* NLGetCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLGetCodeViewController.m; sourceTree = "<group>"; };
+		005DA1671FAB21AD00B4A013 /* NLGetCodeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NLGetCodeViewController.xib; sourceTree = "<group>"; };
+		005DA16F1FABFC7300B4A013 /* NLPasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLPasswordViewController.h; sourceTree = "<group>"; };
+		005DA1701FABFC7300B4A013 /* NLPasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLPasswordViewController.m; sourceTree = "<group>"; };
+		005DA1711FABFC7300B4A013 /* NLPasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NLPasswordViewController.xib; sourceTree = "<group>"; };
+		005DA1741FAC022800B4A013 /* NLChooseSexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLChooseSexViewController.h; sourceTree = "<group>"; };
+		005DA1751FAC022800B4A013 /* NLChooseSexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLChooseSexViewController.m; sourceTree = "<group>"; };
+		005DA1761FAC022800B4A013 /* NLChooseSexViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NLChooseSexViewController.xib; sourceTree = "<group>"; };
+		005DA1791FAC0E0A00B4A013 /* NLChooseBodyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLChooseBodyViewController.h; sourceTree = "<group>"; };
+		005DA17A1FAC0E0A00B4A013 /* NLChooseBodyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLChooseBodyViewController.m; sourceTree = "<group>"; };
+		005DA17B1FAC0E0A00B4A013 /* NLChooseBodyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NLChooseBodyViewController.xib; sourceTree = "<group>"; };
+		005DA17E1FAC12AF00B4A013 /* NLLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLLoginViewController.h; sourceTree = "<group>"; };
+		005DA17F1FAC12AF00B4A013 /* NLLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLLoginViewController.m; sourceTree = "<group>"; };
+		005DA1801FAC12AF00B4A013 /* NLLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NLLoginViewController.xib; sourceTree = "<group>"; };
+		005DA1831FAC4DE500B4A013 /* NLHomepagePartOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLHomepagePartOne.h; sourceTree = "<group>"; };
+		005DA1841FAC4DE500B4A013 /* NLHomepagePartOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLHomepagePartOne.m; sourceTree = "<group>"; };
+		005DA1861FAC503F00B4A013 /* NLHomepagePartOne.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NLHomepagePartOne.xib; sourceTree = "<group>"; };
+		005DA1881FAC61A200B4A013 /* NLHomepagePartTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLHomepagePartTwo.h; sourceTree = "<group>"; };
+		005DA1891FAC61A200B4A013 /* NLHomepagePartTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLHomepagePartTwo.m; sourceTree = "<group>"; };
+		005DA18B1FAC61B300B4A013 /* NLHomepagePartTwo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NLHomepagePartTwo.xib; sourceTree = "<group>"; };
+		005DA18D1FAC61D000B4A013 /* NLHomepagePartThree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLHomepagePartThree.h; sourceTree = "<group>"; };
+		005DA18E1FAC61D000B4A013 /* NLHomepagePartThree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLHomepagePartThree.m; sourceTree = "<group>"; };
+		005DA1901FAC62E300B4A013 /* NLHomepagePartThree.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NLHomepagePartThree.xib; sourceTree = "<group>"; };
+		5C3438C9253B76B53135E8B4 /* Pods-NiuLangSport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiuLangSport.release.xcconfig"; path = "Pods/Target Support Files/Pods-NiuLangSport/Pods-NiuLangSport.release.xcconfig"; sourceTree = "<group>"; };
+		78296D2E4330BB6A1A8DC1D1 /* Pods-NiuLangSport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiuLangSport.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NiuLangSport/Pods-NiuLangSport.debug.xcconfig"; sourceTree = "<group>"; };
+		A033F49DAC41C45D7035B8D0 /* Pods_NiuLangSport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NiuLangSport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +166,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8795A3826D5F48C0B2362ECB /* Pods_NiuLangSport.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +194,8 @@
 				005DA0D21FA9E93400B4A013 /* NiuLangSportTests */,
 				005DA0DD1FA9E93400B4A013 /* NiuLangSportUITests */,
 				005DA0B81FA9E93300B4A013 /* Products */,
+				586812BD32C5A0BCBF812FC7 /* Pods */,
+				853CAA7AE792C185DF70C940 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +212,12 @@
 		005DA0B91FA9E93300B4A013 /* NiuLangSport */ = {
 			isa = PBXGroup;
 			children = (
-				005DA0BA1FA9E93300B4A013 /* AppDelegate.h */,
-				005DA0BB1FA9E93300B4A013 /* AppDelegate.m */,
-				005DA0BD1FA9E93300B4A013 /* ViewController.h */,
-				005DA0BE1FA9E93300B4A013 /* ViewController.m */,
-				005DA0C01FA9E93400B4A013 /* Main.storyboard */,
+				005DA0F61FA9EE3800B4A013 /* AppClass */,
+				005DA1111FA9EE3900B4A013 /* General */,
+				005DA1181FA9EE3900B4A013 /* Helpers */,
+				005DA1171FA9EE3900B4A013 /* Macro */,
+				005DA0F51FA9EE3800B4A013 /* Resource */,
+				005DA11A1FA9EE5D00B4A013 /* NLAppDelegate */,
 				005DA0C31FA9E93400B4A013 /* Assets.xcassets */,
 				005DA0C51FA9E93400B4A013 /* LaunchScreen.storyboard */,
 				005DA0C81FA9E93400B4A013 /* Info.plist */,
@@ -132,6 +244,380 @@
 			path = NiuLangSportUITests;
 			sourceTree = "<group>";
 		};
+		005DA0F51FA9EE3800B4A013 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		005DA0F61FA9EE3800B4A013 /* AppClass */ = {
+			isa = PBXGroup;
+			children = (
+				005DA0F71FA9EE3800B4A013 /* Community */,
+				005DA0FC1FA9EE3800B4A013 /* Find */,
+				005DA1011FA9EE3800B4A013 /* Home */,
+				005DA1061FA9EE3800B4A013 /* Login */,
+				005DA1071FA9EE3800B4A013 /* Mine */,
+				005DA10C1FA9EE3800B4A013 /* MoreFunction */,
+			);
+			path = AppClass;
+			sourceTree = "<group>";
+		};
+		005DA0F71FA9EE3800B4A013 /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				005DA0F81FA9EE3800B4A013 /* Models */,
+				005DA0F91FA9EE3800B4A013 /* ViewControllers */,
+				005DA0FA1FA9EE3800B4A013 /* ViewModels */,
+				005DA0FB1FA9EE3800B4A013 /* Views */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		005DA0F81FA9EE3800B4A013 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		005DA0F91FA9EE3800B4A013 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				005DA1331FAAA95B00B4A013 /* NLCommunityViewController.h */,
+				005DA1341FAAA95B00B4A013 /* NLCommunityViewController.m */,
+				005DA1351FAAA95B00B4A013 /* NLCommunityViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		005DA0FA1FA9EE3800B4A013 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		005DA0FB1FA9EE3800B4A013 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		005DA0FC1FA9EE3800B4A013 /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				005DA0FD1FA9EE3800B4A013 /* Models */,
+				005DA0FE1FA9EE3800B4A013 /* ViewControllers */,
+				005DA0FF1FA9EE3800B4A013 /* ViewModels */,
+				005DA1001FA9EE3800B4A013 /* Views */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		005DA0FD1FA9EE3800B4A013 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		005DA0FE1FA9EE3800B4A013 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				005DA12E1FAAA94200B4A013 /* NLFindViewController.h */,
+				005DA12F1FAAA94200B4A013 /* NLFindViewController.m */,
+				005DA1301FAAA94200B4A013 /* NLFindViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		005DA0FF1FA9EE3800B4A013 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		005DA1001FA9EE3800B4A013 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		005DA1011FA9EE3800B4A013 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				005DA1021FA9EE3800B4A013 /* Models */,
+				005DA1031FA9EE3800B4A013 /* ViewControllers */,
+				005DA1041FA9EE3800B4A013 /* ViewModels */,
+				005DA1051FA9EE3800B4A013 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		005DA1021FA9EE3800B4A013 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		005DA1031FA9EE3800B4A013 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				005DA1291FAAA92000B4A013 /* NLHomeViewController.h */,
+				005DA12A1FAAA92000B4A013 /* NLHomeViewController.m */,
+				005DA12B1FAAA92000B4A013 /* NLHomeViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		005DA1041FA9EE3800B4A013 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		005DA1051FA9EE3800B4A013 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				005DA1831FAC4DE500B4A013 /* NLHomepagePartOne.h */,
+				005DA1841FAC4DE500B4A013 /* NLHomepagePartOne.m */,
+				005DA1861FAC503F00B4A013 /* NLHomepagePartOne.xib */,
+				005DA1881FAC61A200B4A013 /* NLHomepagePartTwo.h */,
+				005DA1891FAC61A200B4A013 /* NLHomepagePartTwo.m */,
+				005DA18B1FAC61B300B4A013 /* NLHomepagePartTwo.xib */,
+				005DA18D1FAC61D000B4A013 /* NLHomepagePartThree.h */,
+				005DA18E1FAC61D000B4A013 /* NLHomepagePartThree.m */,
+				005DA1901FAC62E300B4A013 /* NLHomepagePartThree.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		005DA1061FA9EE3800B4A013 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				005DA1581FAB048900B4A013 /* NLLoginGuideViewController.h */,
+				005DA1591FAB048900B4A013 /* NLLoginGuideViewController.m */,
+				005DA15A1FAB048900B4A013 /* NLLoginGuideViewController.xib */,
+				005DA1601FAB1A6900B4A013 /* NLRegisterViewController.h */,
+				005DA1611FAB1A6900B4A013 /* NLRegisterViewController.m */,
+				005DA1621FAB1A6900B4A013 /* NLRegisterViewController.xib */,
+				005DA1651FAB21AD00B4A013 /* NLGetCodeViewController.h */,
+				005DA1661FAB21AD00B4A013 /* NLGetCodeViewController.m */,
+				005DA1671FAB21AD00B4A013 /* NLGetCodeViewController.xib */,
+				005DA16F1FABFC7300B4A013 /* NLPasswordViewController.h */,
+				005DA1701FABFC7300B4A013 /* NLPasswordViewController.m */,
+				005DA1711FABFC7300B4A013 /* NLPasswordViewController.xib */,
+				005DA1741FAC022800B4A013 /* NLChooseSexViewController.h */,
+				005DA1751FAC022800B4A013 /* NLChooseSexViewController.m */,
+				005DA1761FAC022800B4A013 /* NLChooseSexViewController.xib */,
+				005DA1791FAC0E0A00B4A013 /* NLChooseBodyViewController.h */,
+				005DA17A1FAC0E0A00B4A013 /* NLChooseBodyViewController.m */,
+				005DA17B1FAC0E0A00B4A013 /* NLChooseBodyViewController.xib */,
+				005DA17E1FAC12AF00B4A013 /* NLLoginViewController.h */,
+				005DA17F1FAC12AF00B4A013 /* NLLoginViewController.m */,
+				005DA1801FAC12AF00B4A013 /* NLLoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		005DA1071FA9EE3800B4A013 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				005DA1081FA9EE3800B4A013 /* Models */,
+				005DA1091FA9EE3800B4A013 /* ViewControllers */,
+				005DA10A1FA9EE3800B4A013 /* ViewModels */,
+				005DA10B1FA9EE3800B4A013 /* Views */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		005DA1081FA9EE3800B4A013 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		005DA1091FA9EE3800B4A013 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				005DA1381FAAA98500B4A013 /* NLMineViewController.h */,
+				005DA1391FAAA98500B4A013 /* NLMineViewController.m */,
+				005DA13A1FAAA98500B4A013 /* NLMineViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		005DA10A1FA9EE3800B4A013 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		005DA10B1FA9EE3800B4A013 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		005DA10C1FA9EE3800B4A013 /* MoreFunction */ = {
+			isa = PBXGroup;
+			children = (
+				005DA10D1FA9EE3800B4A013 /* Models */,
+				005DA10E1FA9EE3800B4A013 /* ViewControllers */,
+				005DA10F1FA9EE3800B4A013 /* ViewModels */,
+				005DA1101FA9EE3800B4A013 /* Views */,
+			);
+			path = MoreFunction;
+			sourceTree = "<group>";
+		};
+		005DA10D1FA9EE3800B4A013 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		005DA10E1FA9EE3800B4A013 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				005DA13D1FAAA9A200B4A013 /* NLMoreFunctionViewController.h */,
+				005DA13E1FAAA9A200B4A013 /* NLMoreFunctionViewController.m */,
+				005DA13F1FAAA9A200B4A013 /* NLMoreFunctionViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		005DA10F1FA9EE3800B4A013 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		005DA1101FA9EE3800B4A013 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		005DA1111FA9EE3900B4A013 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				005DA1121FA9EE3900B4A013 /* Base */,
+				005DA1131FA9EE3900B4A013 /* Categories */,
+				005DA1141FA9EE3900B4A013 /* Core */,
+				005DA1151FA9EE3900B4A013 /* Libs */,
+				005DA1161FA9EE3900B4A013 /* Views */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		005DA1121FA9EE3900B4A013 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				005DA11B1FAA04E200B4A013 /* NLBaseViewController.h */,
+				005DA11C1FAA04E200B4A013 /* NLBaseViewController.m */,
+				005DA11E1FAA051B00B4A013 /* NLBaseTabBarViewController.h */,
+				005DA11F1FAA051B00B4A013 /* NLBaseTabBarViewController.m */,
+				005DA1201FAA051B00B4A013 /* NLBaseTabBarViewController.xib */,
+				005DA1231FAA05C800B4A013 /* NLBaseNavigationVC.h */,
+				005DA1241FAA05C800B4A013 /* NLBaseNavigationVC.m */,
+				005DA1261FAA05EC00B4A013 /* NLBaseModel.h */,
+				005DA1271FAA05EC00B4A013 /* NLBaseModel.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		005DA1131FA9EE3900B4A013 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				005DA15E1FAB147E00B4A013 /* UIView+IBDesignable.m */,
+				005DA15D1FAB147500B4A013 /* UIView+IBDesignable.h */,
+				005DA14B1FAAB34A00B4A013 /* UIViewController+HUD.h */,
+				005DA14A1FAAB34A00B4A013 /* UIViewController+HUD.m */,
+				005DA1481FAAB33800B4A013 /* UIImage+Tint.h */,
+				005DA1491FAAB33900B4A013 /* UIImage+Tint.m */,
+				005DA1461FAAB29900B4A013 /* UIView+Extension.h */,
+				005DA1471FAAB29A00B4A013 /* UIView+Extension.m */,
+				005DA1451FAAB1F800B4A013 /* UIBarButtonItem+Extension.h */,
+				005DA1441FAAB1F800B4A013 /* UIBarButtonItem+Extension.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		005DA1141FA9EE3900B4A013 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		005DA1151FA9EE3900B4A013 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		005DA1161FA9EE3900B4A013 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		005DA1171FA9EE3900B4A013 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				005DA14F1FAAC30C00B4A013 /* NLHeader.pch */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		005DA1181FA9EE3900B4A013 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		005DA11A1FA9EE5D00B4A013 /* NLAppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				005DA0F21FA9EDE100B4A013 /* NLAppDelegate.h */,
+				005DA0F31FA9EDE100B4A013 /* NLAppDelegate.m */,
+			);
+			path = NLAppDelegate;
+			sourceTree = "<group>";
+		};
+		586812BD32C5A0BCBF812FC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78296D2E4330BB6A1A8DC1D1 /* Pods-NiuLangSport.debug.xcconfig */,
+				5C3438C9253B76B53135E8B4 /* Pods-NiuLangSport.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		853CAA7AE792C185DF70C940 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A033F49DAC41C45D7035B8D0 /* Pods_NiuLangSport.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +625,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 005DA0E31FA9E93400B4A013 /* Build configuration list for PBXNativeTarget "NiuLangSport" */;
 			buildPhases = (
+				766CCC497A132C1D1854861A /* [CP] Check Pods Manifest.lock */,
 				005DA0B31FA9E93300B4A013 /* Sources */,
 				005DA0B41FA9E93300B4A013 /* Frameworks */,
 				005DA0B51FA9E93300B4A013 /* Resources */,
+				16D8CB460B03095FB0D5B5C5 /* [CP] Embed Pods Frameworks */,
+				635C95FFA343DC89A7A95BCC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +683,7 @@
 		005DA0AF1FA9E93300B4A013 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = NL;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "shi ren";
 				TargetAttributes = {
@@ -238,9 +728,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				005DA1321FAAA94200B4A013 /* NLFindViewController.xib in Resources */,
+				005DA17D1FAC0E0A00B4A013 /* NLChooseBodyViewController.xib in Resources */,
+				005DA1221FAA051B00B4A013 /* NLBaseTabBarViewController.xib in Resources */,
+				005DA15C1FAB048900B4A013 /* NLLoginGuideViewController.xib in Resources */,
+				005DA1371FAAA95B00B4A013 /* NLCommunityViewController.xib in Resources */,
+				005DA1911FAC62E300B4A013 /* NLHomepagePartThree.xib in Resources */,
 				005DA0C71FA9E93400B4A013 /* LaunchScreen.storyboard in Resources */,
+				005DA1641FAB1A6900B4A013 /* NLRegisterViewController.xib in Resources */,
+				005DA1781FAC022800B4A013 /* NLChooseSexViewController.xib in Resources */,
+				005DA13C1FAAA98500B4A013 /* NLMineViewController.xib in Resources */,
 				005DA0C41FA9E93400B4A013 /* Assets.xcassets in Resources */,
-				005DA0C21FA9E93400B4A013 /* Main.storyboard in Resources */,
+				005DA18C1FAC61B300B4A013 /* NLHomepagePartTwo.xib in Resources */,
+				005DA1691FAB21AD00B4A013 /* NLGetCodeViewController.xib in Resources */,
+				005DA1731FABFC7300B4A013 /* NLPasswordViewController.xib in Resources */,
+				005DA1411FAAA9A200B4A013 /* NLMoreFunctionViewController.xib in Resources */,
+				005DA12D1FAAA92000B4A013 /* NLHomeViewController.xib in Resources */,
+				005DA1821FAC12AF00B4A013 /* NLLoginViewController.xib in Resources */,
+				005DA1871FAC503F00B4A013 /* NLHomepagePartOne.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +765,101 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16D8CB460B03095FB0D5B5C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NiuLangSport/Pods-NiuLangSport-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NiuLangSport/Pods-NiuLangSport-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		635C95FFA343DC89A7A95BCC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NiuLangSport/Pods-NiuLangSport-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		766CCC497A132C1D1854861A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NiuLangSport-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		005DA0B31FA9E93300B4A013 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				005DA0BF1FA9E93300B4A013 /* ViewController.m in Sources */,
+				005DA18A1FAC61A200B4A013 /* NLHomepagePartTwo.m in Sources */,
+				005DA1571FAAF28E00B4A013 /* UIViewController+HUD.h in Sources */,
+				005DA1811FAC12AF00B4A013 /* NLLoginViewController.m in Sources */,
+				005DA1721FABFC7300B4A013 /* NLPasswordViewController.m in Sources */,
+				005DA1521FAAF27C00B4A013 /* UIViewController+HUD.m in Sources */,
+				005DA1531FAAF27C00B4A013 /* UIImage+Tint.h in Sources */,
+				005DA1541FAAF27C00B4A013 /* UIImage+Tint.m in Sources */,
+				005DA1551FAAF27C00B4A013 /* UIBarButtonItem+Extension.h in Sources */,
+				005DA15B1FAB048900B4A013 /* NLLoginGuideViewController.m in Sources */,
+				005DA1561FAAF27C00B4A013 /* UIBarButtonItem+Extension.m in Sources */,
+				005DA1511FAAF21D00B4A013 /* UIView+Extension.m in Sources */,
+				005DA1501FAAF1C400B4A013 /* UIView+Extension.h in Sources */,
 				005DA0CA1FA9E93400B4A013 /* main.m in Sources */,
-				005DA0BC1FA9E93300B4A013 /* AppDelegate.m in Sources */,
+				005DA18F1FAC61D000B4A013 /* NLHomepagePartThree.m in Sources */,
+				005DA1281FAA05EC00B4A013 /* NLBaseModel.m in Sources */,
+				005DA1251FAA05C800B4A013 /* NLBaseNavigationVC.m in Sources */,
+				005DA17C1FAC0E0A00B4A013 /* NLChooseBodyViewController.m in Sources */,
+				005DA12C1FAAA92000B4A013 /* NLHomeViewController.m in Sources */,
+				005DA11D1FAA04E300B4A013 /* NLBaseViewController.m in Sources */,
+				005DA1771FAC022800B4A013 /* NLChooseSexViewController.m in Sources */,
+				005DA1211FAA051B00B4A013 /* NLBaseTabBarViewController.m in Sources */,
+				005DA1851FAC4DE500B4A013 /* NLHomepagePartOne.m in Sources */,
+				005DA1401FAAA9A200B4A013 /* NLMoreFunctionViewController.m in Sources */,
+				005DA1311FAAA94200B4A013 /* NLFindViewController.m in Sources */,
+				005DA1631FAB1A6900B4A013 /* NLRegisterViewController.m in Sources */,
+				005DA13B1FAAA98500B4A013 /* NLMineViewController.m in Sources */,
+				005DA1681FAB21AD00B4A013 /* NLGetCodeViewController.m in Sources */,
+				005DA1361FAAA95B00B4A013 /* NLCommunityViewController.m in Sources */,
+				005DA0F41FA9EDE100B4A013 /* NLAppDelegate.m in Sources */,
+				005DA15F1FAB147E00B4A013 /* UIView+IBDesignable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,14 +895,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		005DA0C01FA9E93400B4A013 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				005DA0C11FA9E93400B4A013 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		005DA0C51FA9E93400B4A013 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -428,27 +1012,69 @@
 		};
 		005DA0E41FA9E93400B4A013 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78296D2E4330BB6A1A8DC1D1 /* Pods-NiuLangSport.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Peng Zeng (2CXQDXU7FY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5EMFG9Z439;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/fanyi/Desktop/NiuLangSport/NiuLangSport/Macro/NLHeader.pch;
 				INFOPLIST_FILE = NiuLangSport/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.shililuapp.NiuLangSport;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"IQKeyboardManager\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"ReactiveObjC\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bjhl.pay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
 		005DA0E51FA9E93400B4A013 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C3438C9253B76B53135E8B4 /* Pods-NiuLangSport.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Peng Zeng (2CXQDXU7FY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5EMFG9Z439;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/fanyi/Desktop/NiuLangSport/NiuLangSport/Macro/NLHeader.pch;
 				INFOPLIST_FILE = NiuLangSport/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.shililuapp.NiuLangSport;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"IQKeyboardManager\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"ReactiveObjC\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bjhl.pay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
 		};
