@@ -18,14 +18,10 @@
 		005DA1221FAA051B00B4A013 /* NLBaseTabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005DA1201FAA051B00B4A013 /* NLBaseTabBarViewController.xib */; };
 		005DA1251FAA05C800B4A013 /* NLBaseNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA1241FAA05C800B4A013 /* NLBaseNavigationVC.m */; };
 		005DA1281FAA05EC00B4A013 /* NLBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA1271FAA05EC00B4A013 /* NLBaseModel.m */; };
-		005DA12C1FAAA92000B4A013 /* NLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA12A1FAAA92000B4A013 /* NLHomeViewController.m */; };
-		005DA12D1FAAA92000B4A013 /* NLHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005DA12B1FAAA92000B4A013 /* NLHomeViewController.xib */; };
 		005DA1311FAAA94200B4A013 /* NLFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA12F1FAAA94200B4A013 /* NLFindViewController.m */; };
 		005DA1321FAAA94200B4A013 /* NLFindViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005DA1301FAAA94200B4A013 /* NLFindViewController.xib */; };
 		005DA1361FAAA95B00B4A013 /* NLCommunityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA1341FAAA95B00B4A013 /* NLCommunityViewController.m */; };
 		005DA1371FAAA95B00B4A013 /* NLCommunityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005DA1351FAAA95B00B4A013 /* NLCommunityViewController.xib */; };
-		005DA13B1FAAA98500B4A013 /* NLMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA1391FAAA98500B4A013 /* NLMineViewController.m */; };
-		005DA13C1FAAA98500B4A013 /* NLMineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005DA13A1FAAA98500B4A013 /* NLMineViewController.xib */; };
 		005DA1401FAAA9A200B4A013 /* NLMoreFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA13E1FAAA9A200B4A013 /* NLMoreFunctionViewController.m */; };
 		005DA1411FAAA9A200B4A013 /* NLMoreFunctionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005DA13F1FAAA9A200B4A013 /* NLMoreFunctionViewController.xib */; };
 		005DA1501FAAF1C400B4A013 /* UIView+Extension.h in Sources */ = {isa = PBXBuildFile; fileRef = 005DA1461FAAB29900B4A013 /* UIView+Extension.h */; };
@@ -51,13 +47,44 @@
 		005DA17D1FAC0E0A00B4A013 /* NLChooseBodyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005DA17B1FAC0E0A00B4A013 /* NLChooseBodyViewController.xib */; };
 		005DA1811FAC12AF00B4A013 /* NLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA17F1FAC12AF00B4A013 /* NLLoginViewController.m */; };
 		005DA1821FAC12AF00B4A013 /* NLLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005DA1801FAC12AF00B4A013 /* NLLoginViewController.xib */; };
-		005DA1851FAC4DE500B4A013 /* NLHomepagePartOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA1841FAC4DE500B4A013 /* NLHomepagePartOne.m */; };
-		005DA1871FAC503F00B4A013 /* NLHomepagePartOne.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005DA1861FAC503F00B4A013 /* NLHomepagePartOne.xib */; };
-		005DA18A1FAC61A200B4A013 /* NLHomepagePartTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA1891FAC61A200B4A013 /* NLHomepagePartTwo.m */; };
-		005DA18C1FAC61B300B4A013 /* NLHomepagePartTwo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005DA18B1FAC61B300B4A013 /* NLHomepagePartTwo.xib */; };
-		005DA18F1FAC61D000B4A013 /* NLHomepagePartThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA18E1FAC61D000B4A013 /* NLHomepagePartThree.m */; };
-		005DA1911FAC62E300B4A013 /* NLHomepagePartThree.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005DA1901FAC62E300B4A013 /* NLHomepagePartThree.xib */; };
 		8795A3826D5F48C0B2362ECB /* Pods_NiuLangSport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A033F49DAC41C45D7035B8D0 /* Pods_NiuLangSport.framework */; };
+		BDC91EAD1FADE40A009CBF9B /* NLHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDC91EAB1FADE40A009CBF9B /* NLHomeViewController.xib */; };
+		BDC91EAE1FADE40A009CBF9B /* NLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC91EAC1FADE40A009CBF9B /* NLHomeViewController.m */; };
+		BDC91EB81FADE422009CBF9B /* NLHomepagePartThree.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDC91EAF1FADE421009CBF9B /* NLHomepagePartThree.xib */; };
+		BDC91EB91FADE422009CBF9B /* NLHomepagePartOne.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC91EB01FADE421009CBF9B /* NLHomepagePartOne.m */; };
+		BDC91EBA1FADE422009CBF9B /* NLHomepagePartThree.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC91EB11FADE421009CBF9B /* NLHomepagePartThree.m */; };
+		BDC91EBB1FADE422009CBF9B /* NLHomepagePartTwo.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDC91EB21FADE421009CBF9B /* NLHomepagePartTwo.xib */; };
+		BDC91EBC1FADE422009CBF9B /* NLHomepagePartOne.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDC91EB41FADE422009CBF9B /* NLHomepagePartOne.xib */; };
+		BDC91EBD1FADE422009CBF9B /* NLHomepagePartTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC91EB51FADE422009CBF9B /* NLHomepagePartTwo.m */; };
+		BDC91EC01FADE433009CBF9B /* NLKcalCuonsumeView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC91EBF1FADE433009CBF9B /* NLKcalCuonsumeView.m */; };
+		BDC91EC31FADE46E009CBF9B /* NLMeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC91EC21FADE46E009CBF9B /* NLMeModel.m */; };
+		BDC91ECD1FADE49A009CBF9B /* NLMyNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC91EC41FADE499009CBF9B /* NLMyNoteViewController.m */; };
+		BDC91ECE1FADE49A009CBF9B /* NLMyFansViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDC91EC71FADE499009CBF9B /* NLMyFansViewController.xib */; };
+		BDC91ECF1FADE49A009CBF9B /* NLMyFansViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC91EC81FADE499009CBF9B /* NLMyFansViewController.m */; };
+		BDC91ED01FADE49A009CBF9B /* NLMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC91EC91FADE499009CBF9B /* NLMineViewController.m */; };
+		BDC91ED11FADE49A009CBF9B /* NLMineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDC91ECB1FADE499009CBF9B /* NLMineViewController.xib */; };
+		BDC91ED21FADE49A009CBF9B /* NLMyNoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDC91ECC1FADE499009CBF9B /* NLMyNoteViewController.xib */; };
+		BDC91EDC1FADE4AD009CBF9B /* NLMyFansTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC91ED31FADE4AC009CBF9B /* NLMyFansTableViewCell.m */; };
+		BDC91EDD1FADE4AD009CBF9B /* NLMineHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC91ED41FADE4AC009CBF9B /* NLMineHeaderView.m */; };
+		BDC91EDE1FADE4AD009CBF9B /* NLMineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC91ED61FADE4AC009CBF9B /* NLMineTableViewCell.m */; };
+		BDC91EDF1FADE4AD009CBF9B /* NLMyFansTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDC91ED81FADE4AD009CBF9B /* NLMyFansTableViewCell.xib */; };
+		BDC91EE01FADE4AD009CBF9B /* NLMineHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDC91ED91FADE4AD009CBF9B /* NLMineHeaderView.xib */; };
+		BDC91EE11FADE4AD009CBF9B /* NLMineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDC91EDB1FADE4AD009CBF9B /* NLMineTableViewCell.xib */; };
+		BDC91EE51FADE534009CBF9B /* NLNoteTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC91EE21FADE533009CBF9B /* NLNoteTableViewCell.m */; };
+		BDC91EE61FADE534009CBF9B /* NLNoteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDC91EE41FADE534009CBF9B /* NLNoteTableViewCell.xib */; };
+		BDE6075B1FAD69510089423E /* NLSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE6075A1FAD69510089423E /* NLSegmentView.m */; };
+		BDE6075E1FAD6E2D0089423E /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE6075D1FAD6E2D0089423E /* UIColor+Extension.m */; };
+		BDE607671FAD717D0089423E /* UIView+NLBorders.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE607651FAD717D0089423E /* UIView+NLBorders.m */; };
+		BDE6076A1FAD97830089423E /* NLRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE607691FAD97830089423E /* NLRecommendViewController.m */; };
+		BDE6076D1FAD97C40089423E /* NLFocusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE6076C1FAD97C40089423E /* NLFocusViewController.m */; };
+		BDE607701FAD97EC0089423E /* NLNearByViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE6076F1FAD97EC0089423E /* NLNearByViewController.m */; };
+		BDE607751FAD98D70089423E /* UIViewController+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE607731FAD98D70089423E /* UIViewController+Ext.m */; };
+		BDE607761FAD98D70089423E /* UIScrollView+Refresh.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE607741FAD98D70089423E /* UIScrollView+Refresh.m */; };
+		BDE607791FAD9E000089423E /* QFBannerFocusView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE607771FAD9E000089423E /* QFBannerFocusView.m */; };
+		BDE6077C1FADA0D30089423E /* NLBannerImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE6077B1FADA0D30089423E /* NLBannerImageModel.m */; };
+		BDE607821FADAF8B0089423E /* NLArticleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE607811FADAF8B0089423E /* NLArticleModel.m */; };
+		BDE607861FADB05A0089423E /* FITArticleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE607841FADB05A0089423E /* FITArticleTableViewCell.m */; };
+		BDE607871FADB05A0089423E /* FITArticleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDE607851FADB05A0089423E /* FITArticleTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,18 +127,12 @@
 		005DA1241FAA05C800B4A013 /* NLBaseNavigationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLBaseNavigationVC.m; sourceTree = "<group>"; };
 		005DA1261FAA05EC00B4A013 /* NLBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLBaseModel.h; sourceTree = "<group>"; };
 		005DA1271FAA05EC00B4A013 /* NLBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLBaseModel.m; sourceTree = "<group>"; };
-		005DA1291FAAA92000B4A013 /* NLHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLHomeViewController.h; sourceTree = "<group>"; };
-		005DA12A1FAAA92000B4A013 /* NLHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLHomeViewController.m; sourceTree = "<group>"; };
-		005DA12B1FAAA92000B4A013 /* NLHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NLHomeViewController.xib; sourceTree = "<group>"; };
 		005DA12E1FAAA94200B4A013 /* NLFindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLFindViewController.h; sourceTree = "<group>"; };
 		005DA12F1FAAA94200B4A013 /* NLFindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLFindViewController.m; sourceTree = "<group>"; };
 		005DA1301FAAA94200B4A013 /* NLFindViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NLFindViewController.xib; sourceTree = "<group>"; };
 		005DA1331FAAA95B00B4A013 /* NLCommunityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLCommunityViewController.h; sourceTree = "<group>"; };
 		005DA1341FAAA95B00B4A013 /* NLCommunityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLCommunityViewController.m; sourceTree = "<group>"; };
 		005DA1351FAAA95B00B4A013 /* NLCommunityViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NLCommunityViewController.xib; sourceTree = "<group>"; };
-		005DA1381FAAA98500B4A013 /* NLMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLMineViewController.h; sourceTree = "<group>"; };
-		005DA1391FAAA98500B4A013 /* NLMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLMineViewController.m; sourceTree = "<group>"; };
-		005DA13A1FAAA98500B4A013 /* NLMineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NLMineViewController.xib; sourceTree = "<group>"; };
 		005DA13D1FAAA9A200B4A013 /* NLMoreFunctionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLMoreFunctionViewController.h; sourceTree = "<group>"; };
 		005DA13E1FAAA9A200B4A013 /* NLMoreFunctionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLMoreFunctionViewController.m; sourceTree = "<group>"; };
 		005DA13F1FAAA9A200B4A013 /* NLMoreFunctionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NLMoreFunctionViewController.xib; sourceTree = "<group>"; };
@@ -147,18 +168,71 @@
 		005DA17E1FAC12AF00B4A013 /* NLLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLLoginViewController.h; sourceTree = "<group>"; };
 		005DA17F1FAC12AF00B4A013 /* NLLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLLoginViewController.m; sourceTree = "<group>"; };
 		005DA1801FAC12AF00B4A013 /* NLLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NLLoginViewController.xib; sourceTree = "<group>"; };
-		005DA1831FAC4DE500B4A013 /* NLHomepagePartOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLHomepagePartOne.h; sourceTree = "<group>"; };
-		005DA1841FAC4DE500B4A013 /* NLHomepagePartOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLHomepagePartOne.m; sourceTree = "<group>"; };
-		005DA1861FAC503F00B4A013 /* NLHomepagePartOne.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NLHomepagePartOne.xib; sourceTree = "<group>"; };
-		005DA1881FAC61A200B4A013 /* NLHomepagePartTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLHomepagePartTwo.h; sourceTree = "<group>"; };
-		005DA1891FAC61A200B4A013 /* NLHomepagePartTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLHomepagePartTwo.m; sourceTree = "<group>"; };
-		005DA18B1FAC61B300B4A013 /* NLHomepagePartTwo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NLHomepagePartTwo.xib; sourceTree = "<group>"; };
-		005DA18D1FAC61D000B4A013 /* NLHomepagePartThree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLHomepagePartThree.h; sourceTree = "<group>"; };
-		005DA18E1FAC61D000B4A013 /* NLHomepagePartThree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLHomepagePartThree.m; sourceTree = "<group>"; };
-		005DA1901FAC62E300B4A013 /* NLHomepagePartThree.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NLHomepagePartThree.xib; sourceTree = "<group>"; };
 		5C3438C9253B76B53135E8B4 /* Pods-NiuLangSport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiuLangSport.release.xcconfig"; path = "Pods/Target Support Files/Pods-NiuLangSport/Pods-NiuLangSport.release.xcconfig"; sourceTree = "<group>"; };
 		78296D2E4330BB6A1A8DC1D1 /* Pods-NiuLangSport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiuLangSport.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NiuLangSport/Pods-NiuLangSport.debug.xcconfig"; sourceTree = "<group>"; };
 		A033F49DAC41C45D7035B8D0 /* Pods_NiuLangSport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NiuLangSport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC91EAA1FADE40A009CBF9B /* NLHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLHomeViewController.h; sourceTree = "<group>"; };
+		BDC91EAB1FADE40A009CBF9B /* NLHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NLHomeViewController.xib; sourceTree = "<group>"; };
+		BDC91EAC1FADE40A009CBF9B /* NLHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLHomeViewController.m; sourceTree = "<group>"; };
+		BDC91EAF1FADE421009CBF9B /* NLHomepagePartThree.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NLHomepagePartThree.xib; sourceTree = "<group>"; };
+		BDC91EB01FADE421009CBF9B /* NLHomepagePartOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLHomepagePartOne.m; sourceTree = "<group>"; };
+		BDC91EB11FADE421009CBF9B /* NLHomepagePartThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLHomepagePartThree.m; sourceTree = "<group>"; };
+		BDC91EB21FADE421009CBF9B /* NLHomepagePartTwo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NLHomepagePartTwo.xib; sourceTree = "<group>"; };
+		BDC91EB31FADE421009CBF9B /* NLHomepagePartThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLHomepagePartThree.h; sourceTree = "<group>"; };
+		BDC91EB41FADE422009CBF9B /* NLHomepagePartOne.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NLHomepagePartOne.xib; sourceTree = "<group>"; };
+		BDC91EB51FADE422009CBF9B /* NLHomepagePartTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLHomepagePartTwo.m; sourceTree = "<group>"; };
+		BDC91EB61FADE422009CBF9B /* NLHomepagePartTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLHomepagePartTwo.h; sourceTree = "<group>"; };
+		BDC91EB71FADE422009CBF9B /* NLHomepagePartOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLHomepagePartOne.h; sourceTree = "<group>"; };
+		BDC91EBE1FADE433009CBF9B /* NLKcalCuonsumeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLKcalCuonsumeView.h; sourceTree = "<group>"; };
+		BDC91EBF1FADE433009CBF9B /* NLKcalCuonsumeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLKcalCuonsumeView.m; sourceTree = "<group>"; };
+		BDC91EC11FADE46E009CBF9B /* NLMeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLMeModel.h; sourceTree = "<group>"; };
+		BDC91EC21FADE46E009CBF9B /* NLMeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLMeModel.m; sourceTree = "<group>"; };
+		BDC91EC41FADE499009CBF9B /* NLMyNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLMyNoteViewController.m; sourceTree = "<group>"; };
+		BDC91EC51FADE499009CBF9B /* NLMyNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLMyNoteViewController.h; sourceTree = "<group>"; };
+		BDC91EC61FADE499009CBF9B /* NLMyFansViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLMyFansViewController.h; sourceTree = "<group>"; };
+		BDC91EC71FADE499009CBF9B /* NLMyFansViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NLMyFansViewController.xib; sourceTree = "<group>"; };
+		BDC91EC81FADE499009CBF9B /* NLMyFansViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLMyFansViewController.m; sourceTree = "<group>"; };
+		BDC91EC91FADE499009CBF9B /* NLMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLMineViewController.m; sourceTree = "<group>"; };
+		BDC91ECA1FADE499009CBF9B /* NLMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLMineViewController.h; sourceTree = "<group>"; };
+		BDC91ECB1FADE499009CBF9B /* NLMineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NLMineViewController.xib; sourceTree = "<group>"; };
+		BDC91ECC1FADE499009CBF9B /* NLMyNoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NLMyNoteViewController.xib; sourceTree = "<group>"; };
+		BDC91ED31FADE4AC009CBF9B /* NLMyFansTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLMyFansTableViewCell.m; sourceTree = "<group>"; };
+		BDC91ED41FADE4AC009CBF9B /* NLMineHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLMineHeaderView.m; sourceTree = "<group>"; };
+		BDC91ED51FADE4AC009CBF9B /* NLMineTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLMineTableViewCell.h; sourceTree = "<group>"; };
+		BDC91ED61FADE4AC009CBF9B /* NLMineTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLMineTableViewCell.m; sourceTree = "<group>"; };
+		BDC91ED71FADE4AC009CBF9B /* NLMyFansTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLMyFansTableViewCell.h; sourceTree = "<group>"; };
+		BDC91ED81FADE4AD009CBF9B /* NLMyFansTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NLMyFansTableViewCell.xib; sourceTree = "<group>"; };
+		BDC91ED91FADE4AD009CBF9B /* NLMineHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NLMineHeaderView.xib; sourceTree = "<group>"; };
+		BDC91EDA1FADE4AD009CBF9B /* NLMineHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLMineHeaderView.h; sourceTree = "<group>"; };
+		BDC91EDB1FADE4AD009CBF9B /* NLMineTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NLMineTableViewCell.xib; sourceTree = "<group>"; };
+		BDC91EE21FADE533009CBF9B /* NLNoteTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLNoteTableViewCell.m; sourceTree = "<group>"; };
+		BDC91EE31FADE534009CBF9B /* NLNoteTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLNoteTableViewCell.h; sourceTree = "<group>"; };
+		BDC91EE41FADE534009CBF9B /* NLNoteTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NLNoteTableViewCell.xib; sourceTree = "<group>"; };
+		BDE607591FAD69510089423E /* NLSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLSegmentView.h; sourceTree = "<group>"; };
+		BDE6075A1FAD69510089423E /* NLSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLSegmentView.m; sourceTree = "<group>"; };
+		BDE6075C1FAD6E2D0089423E /* UIColor+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		BDE6075D1FAD6E2D0089423E /* UIColor+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		BDE607651FAD717D0089423E /* UIView+NLBorders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NLBorders.m"; sourceTree = "<group>"; };
+		BDE607661FAD717D0089423E /* UIView+NLBorders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NLBorders.h"; sourceTree = "<group>"; };
+		BDE607681FAD97830089423E /* NLRecommendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLRecommendViewController.h; sourceTree = "<group>"; };
+		BDE607691FAD97830089423E /* NLRecommendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLRecommendViewController.m; sourceTree = "<group>"; };
+		BDE6076B1FAD97C40089423E /* NLFocusViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLFocusViewController.h; sourceTree = "<group>"; };
+		BDE6076C1FAD97C40089423E /* NLFocusViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLFocusViewController.m; sourceTree = "<group>"; };
+		BDE6076E1FAD97EC0089423E /* NLNearByViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLNearByViewController.h; sourceTree = "<group>"; };
+		BDE6076F1FAD97EC0089423E /* NLNearByViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLNearByViewController.m; sourceTree = "<group>"; };
+		BDE607711FAD98D70089423E /* UIScrollView+Refresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Refresh.h"; sourceTree = "<group>"; };
+		BDE607721FAD98D70089423E /* UIViewController+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Ext.h"; sourceTree = "<group>"; };
+		BDE607731FAD98D70089423E /* UIViewController+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Ext.m"; sourceTree = "<group>"; };
+		BDE607741FAD98D70089423E /* UIScrollView+Refresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Refresh.m"; sourceTree = "<group>"; };
+		BDE607771FAD9E000089423E /* QFBannerFocusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFBannerFocusView.m; sourceTree = "<group>"; };
+		BDE607781FAD9E000089423E /* QFBannerFocusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFBannerFocusView.h; sourceTree = "<group>"; };
+		BDE6077A1FADA0D30089423E /* NLBannerImageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLBannerImageModel.h; sourceTree = "<group>"; };
+		BDE6077B1FADA0D30089423E /* NLBannerImageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLBannerImageModel.m; sourceTree = "<group>"; };
+		BDE607801FADAF8B0089423E /* NLArticleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLArticleModel.h; sourceTree = "<group>"; };
+		BDE607811FADAF8B0089423E /* NLArticleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLArticleModel.m; sourceTree = "<group>"; };
+		BDE607831FADB05A0089423E /* FITArticleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FITArticleTableViewCell.h; sourceTree = "<group>"; };
+		BDE607841FADB05A0089423E /* FITArticleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FITArticleTableViewCell.m; sourceTree = "<group>"; };
+		BDE607851FADB05A0089423E /* FITArticleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FITArticleTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -278,6 +352,10 @@
 		005DA0F81FA9EE3800B4A013 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BDE6077A1FADA0D30089423E /* NLBannerImageModel.h */,
+				BDE6077B1FADA0D30089423E /* NLBannerImageModel.m */,
+				BDE607801FADAF8B0089423E /* NLArticleModel.h */,
+				BDE607811FADAF8B0089423E /* NLArticleModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -288,6 +366,12 @@
 				005DA1331FAAA95B00B4A013 /* NLCommunityViewController.h */,
 				005DA1341FAAA95B00B4A013 /* NLCommunityViewController.m */,
 				005DA1351FAAA95B00B4A013 /* NLCommunityViewController.xib */,
+				BDE607681FAD97830089423E /* NLRecommendViewController.h */,
+				BDE607691FAD97830089423E /* NLRecommendViewController.m */,
+				BDE6076B1FAD97C40089423E /* NLFocusViewController.h */,
+				BDE6076C1FAD97C40089423E /* NLFocusViewController.m */,
+				BDE6076E1FAD97EC0089423E /* NLNearByViewController.h */,
+				BDE6076F1FAD97EC0089423E /* NLNearByViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -302,6 +386,13 @@
 		005DA0FB1FA9EE3800B4A013 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BDE607831FADB05A0089423E /* FITArticleTableViewCell.h */,
+				BDE607841FADB05A0089423E /* FITArticleTableViewCell.m */,
+				BDE607851FADB05A0089423E /* FITArticleTableViewCell.xib */,
+				BDE607781FAD9E000089423E /* QFBannerFocusView.h */,
+				BDE607771FAD9E000089423E /* QFBannerFocusView.m */,
+				BDE607591FAD69510089423E /* NLSegmentView.h */,
+				BDE6075A1FAD69510089423E /* NLSegmentView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -369,9 +460,9 @@
 		005DA1031FA9EE3800B4A013 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				005DA1291FAAA92000B4A013 /* NLHomeViewController.h */,
-				005DA12A1FAAA92000B4A013 /* NLHomeViewController.m */,
-				005DA12B1FAAA92000B4A013 /* NLHomeViewController.xib */,
+				BDC91EAA1FADE40A009CBF9B /* NLHomeViewController.h */,
+				BDC91EAC1FADE40A009CBF9B /* NLHomeViewController.m */,
+				BDC91EAB1FADE40A009CBF9B /* NLHomeViewController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -386,15 +477,17 @@
 		005DA1051FA9EE3800B4A013 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				005DA1831FAC4DE500B4A013 /* NLHomepagePartOne.h */,
-				005DA1841FAC4DE500B4A013 /* NLHomepagePartOne.m */,
-				005DA1861FAC503F00B4A013 /* NLHomepagePartOne.xib */,
-				005DA1881FAC61A200B4A013 /* NLHomepagePartTwo.h */,
-				005DA1891FAC61A200B4A013 /* NLHomepagePartTwo.m */,
-				005DA18B1FAC61B300B4A013 /* NLHomepagePartTwo.xib */,
-				005DA18D1FAC61D000B4A013 /* NLHomepagePartThree.h */,
-				005DA18E1FAC61D000B4A013 /* NLHomepagePartThree.m */,
-				005DA1901FAC62E300B4A013 /* NLHomepagePartThree.xib */,
+				BDC91EB71FADE422009CBF9B /* NLHomepagePartOne.h */,
+				BDC91EB01FADE421009CBF9B /* NLHomepagePartOne.m */,
+				BDC91EB41FADE422009CBF9B /* NLHomepagePartOne.xib */,
+				BDC91EB31FADE421009CBF9B /* NLHomepagePartThree.h */,
+				BDC91EB11FADE421009CBF9B /* NLHomepagePartThree.m */,
+				BDC91EAF1FADE421009CBF9B /* NLHomepagePartThree.xib */,
+				BDC91EB61FADE422009CBF9B /* NLHomepagePartTwo.h */,
+				BDC91EB51FADE422009CBF9B /* NLHomepagePartTwo.m */,
+				BDC91EB21FADE421009CBF9B /* NLHomepagePartTwo.xib */,
+				BDC91EBE1FADE433009CBF9B /* NLKcalCuonsumeView.h */,
+				BDC91EBF1FADE433009CBF9B /* NLKcalCuonsumeView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -441,6 +534,8 @@
 		005DA1081FA9EE3800B4A013 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BDC91EC11FADE46E009CBF9B /* NLMeModel.h */,
+				BDC91EC21FADE46E009CBF9B /* NLMeModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -448,9 +543,15 @@
 		005DA1091FA9EE3800B4A013 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				005DA1381FAAA98500B4A013 /* NLMineViewController.h */,
-				005DA1391FAAA98500B4A013 /* NLMineViewController.m */,
-				005DA13A1FAAA98500B4A013 /* NLMineViewController.xib */,
+				BDC91ECA1FADE499009CBF9B /* NLMineViewController.h */,
+				BDC91EC91FADE499009CBF9B /* NLMineViewController.m */,
+				BDC91ECB1FADE499009CBF9B /* NLMineViewController.xib */,
+				BDC91EC61FADE499009CBF9B /* NLMyFansViewController.h */,
+				BDC91EC81FADE499009CBF9B /* NLMyFansViewController.m */,
+				BDC91EC71FADE499009CBF9B /* NLMyFansViewController.xib */,
+				BDC91EC51FADE499009CBF9B /* NLMyNoteViewController.h */,
+				BDC91EC41FADE499009CBF9B /* NLMyNoteViewController.m */,
+				BDC91ECC1FADE499009CBF9B /* NLMyNoteViewController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -465,6 +566,15 @@
 		005DA10B1FA9EE3800B4A013 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BDC91EDA1FADE4AD009CBF9B /* NLMineHeaderView.h */,
+				BDC91ED41FADE4AC009CBF9B /* NLMineHeaderView.m */,
+				BDC91ED91FADE4AD009CBF9B /* NLMineHeaderView.xib */,
+				BDC91ED51FADE4AC009CBF9B /* NLMineTableViewCell.h */,
+				BDC91ED61FADE4AC009CBF9B /* NLMineTableViewCell.m */,
+				BDC91EDB1FADE4AD009CBF9B /* NLMineTableViewCell.xib */,
+				BDC91ED71FADE4AC009CBF9B /* NLMyFansTableViewCell.h */,
+				BDC91ED31FADE4AC009CBF9B /* NLMyFansTableViewCell.m */,
+				BDC91ED81FADE4AD009CBF9B /* NLMyFansTableViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -542,6 +652,12 @@
 		005DA1131FA9EE3900B4A013 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				BDE607711FAD98D70089423E /* UIScrollView+Refresh.h */,
+				BDE607741FAD98D70089423E /* UIScrollView+Refresh.m */,
+				BDE607721FAD98D70089423E /* UIViewController+Ext.h */,
+				BDE607731FAD98D70089423E /* UIViewController+Ext.m */,
+				BDE607661FAD717D0089423E /* UIView+NLBorders.h */,
+				BDE607651FAD717D0089423E /* UIView+NLBorders.m */,
 				005DA15E1FAB147E00B4A013 /* UIView+IBDesignable.m */,
 				005DA15D1FAB147500B4A013 /* UIView+IBDesignable.h */,
 				005DA14B1FAAB34A00B4A013 /* UIViewController+HUD.h */,
@@ -552,6 +668,8 @@
 				005DA1471FAAB29A00B4A013 /* UIView+Extension.m */,
 				005DA1451FAAB1F800B4A013 /* UIBarButtonItem+Extension.h */,
 				005DA1441FAAB1F800B4A013 /* UIBarButtonItem+Extension.m */,
+				BDE6075C1FAD6E2D0089423E /* UIColor+Extension.h */,
+				BDE6075D1FAD6E2D0089423E /* UIColor+Extension.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -573,6 +691,9 @@
 		005DA1161FA9EE3900B4A013 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BDC91EE31FADE534009CBF9B /* NLNoteTableViewCell.h */,
+				BDC91EE21FADE533009CBF9B /* NLNoteTableViewCell.m */,
+				BDC91EE41FADE534009CBF9B /* NLNoteTableViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -689,7 +810,7 @@
 				TargetAttributes = {
 					005DA0B61FA9E93300B4A013 = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					005DA0CE1FA9E93400B4A013 = {
 						CreatedOnToolsVersion = 9.0;
@@ -728,24 +849,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDC91EE01FADE4AD009CBF9B /* NLMineHeaderView.xib in Resources */,
 				005DA1321FAAA94200B4A013 /* NLFindViewController.xib in Resources */,
+				BDC91EBC1FADE422009CBF9B /* NLHomepagePartOne.xib in Resources */,
 				005DA17D1FAC0E0A00B4A013 /* NLChooseBodyViewController.xib in Resources */,
 				005DA1221FAA051B00B4A013 /* NLBaseTabBarViewController.xib in Resources */,
+				BDC91ECE1FADE49A009CBF9B /* NLMyFansViewController.xib in Resources */,
+				BDC91EE61FADE534009CBF9B /* NLNoteTableViewCell.xib in Resources */,
+				BDC91EE11FADE4AD009CBF9B /* NLMineTableViewCell.xib in Resources */,
 				005DA15C1FAB048900B4A013 /* NLLoginGuideViewController.xib in Resources */,
 				005DA1371FAAA95B00B4A013 /* NLCommunityViewController.xib in Resources */,
-				005DA1911FAC62E300B4A013 /* NLHomepagePartThree.xib in Resources */,
+				BDC91EDF1FADE4AD009CBF9B /* NLMyFansTableViewCell.xib in Resources */,
+				BDC91ED21FADE49A009CBF9B /* NLMyNoteViewController.xib in Resources */,
+				BDE607871FADB05A0089423E /* FITArticleTableViewCell.xib in Resources */,
 				005DA0C71FA9E93400B4A013 /* LaunchScreen.storyboard in Resources */,
 				005DA1641FAB1A6900B4A013 /* NLRegisterViewController.xib in Resources */,
 				005DA1781FAC022800B4A013 /* NLChooseSexViewController.xib in Resources */,
-				005DA13C1FAAA98500B4A013 /* NLMineViewController.xib in Resources */,
 				005DA0C41FA9E93400B4A013 /* Assets.xcassets in Resources */,
-				005DA18C1FAC61B300B4A013 /* NLHomepagePartTwo.xib in Resources */,
+				BDC91EB81FADE422009CBF9B /* NLHomepagePartThree.xib in Resources */,
+				BDC91EAD1FADE40A009CBF9B /* NLHomeViewController.xib in Resources */,
+				BDC91EBB1FADE422009CBF9B /* NLHomepagePartTwo.xib in Resources */,
+				BDC91ED11FADE49A009CBF9B /* NLMineViewController.xib in Resources */,
 				005DA1691FAB21AD00B4A013 /* NLGetCodeViewController.xib in Resources */,
 				005DA1731FABFC7300B4A013 /* NLPasswordViewController.xib in Resources */,
 				005DA1411FAAA9A200B4A013 /* NLMoreFunctionViewController.xib in Resources */,
-				005DA12D1FAAA92000B4A013 /* NLHomeViewController.xib in Resources */,
 				005DA1821FAC12AF00B4A013 /* NLLoginViewController.xib in Resources */,
-				005DA1871FAC503F00B4A013 /* NLHomepagePartOne.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -776,14 +904,30 @@
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SMPageControl/SMPageControl.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
+				"${BUILT_PRODUCTS_DIR}/YYImage/YYImage.framework",
+				"${BUILT_PRODUCTS_DIR}/YYWebImage/YYWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SMPageControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -830,36 +974,56 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				005DA18A1FAC61A200B4A013 /* NLHomepagePartTwo.m in Sources */,
 				005DA1571FAAF28E00B4A013 /* UIViewController+HUD.h in Sources */,
 				005DA1811FAC12AF00B4A013 /* NLLoginViewController.m in Sources */,
+				BDE6076A1FAD97830089423E /* NLRecommendViewController.m in Sources */,
 				005DA1721FABFC7300B4A013 /* NLPasswordViewController.m in Sources */,
+				BDC91ECD1FADE49A009CBF9B /* NLMyNoteViewController.m in Sources */,
 				005DA1521FAAF27C00B4A013 /* UIViewController+HUD.m in Sources */,
 				005DA1531FAAF27C00B4A013 /* UIImage+Tint.h in Sources */,
 				005DA1541FAAF27C00B4A013 /* UIImage+Tint.m in Sources */,
 				005DA1551FAAF27C00B4A013 /* UIBarButtonItem+Extension.h in Sources */,
+				BDE607671FAD717D0089423E /* UIView+NLBorders.m in Sources */,
+				BDC91EBD1FADE422009CBF9B /* NLHomepagePartTwo.m in Sources */,
 				005DA15B1FAB048900B4A013 /* NLLoginGuideViewController.m in Sources */,
+				BDE607861FADB05A0089423E /* FITArticleTableViewCell.m in Sources */,
 				005DA1561FAAF27C00B4A013 /* UIBarButtonItem+Extension.m in Sources */,
 				005DA1511FAAF21D00B4A013 /* UIView+Extension.m in Sources */,
+				BDE607701FAD97EC0089423E /* NLNearByViewController.m in Sources */,
+				BDE607791FAD9E000089423E /* QFBannerFocusView.m in Sources */,
+				BDC91EB91FADE422009CBF9B /* NLHomepagePartOne.m in Sources */,
 				005DA1501FAAF1C400B4A013 /* UIView+Extension.h in Sources */,
+				BDC91EDC1FADE4AD009CBF9B /* NLMyFansTableViewCell.m in Sources */,
+				BDC91EDD1FADE4AD009CBF9B /* NLMineHeaderView.m in Sources */,
 				005DA0CA1FA9E93400B4A013 /* main.m in Sources */,
-				005DA18F1FAC61D000B4A013 /* NLHomepagePartThree.m in Sources */,
 				005DA1281FAA05EC00B4A013 /* NLBaseModel.m in Sources */,
+				BDC91EC01FADE433009CBF9B /* NLKcalCuonsumeView.m in Sources */,
 				005DA1251FAA05C800B4A013 /* NLBaseNavigationVC.m in Sources */,
 				005DA17C1FAC0E0A00B4A013 /* NLChooseBodyViewController.m in Sources */,
-				005DA12C1FAAA92000B4A013 /* NLHomeViewController.m in Sources */,
+				BDE607821FADAF8B0089423E /* NLArticleModel.m in Sources */,
+				BDE6075B1FAD69510089423E /* NLSegmentView.m in Sources */,
+				BDE6075E1FAD6E2D0089423E /* UIColor+Extension.m in Sources */,
+				BDC91EAE1FADE40A009CBF9B /* NLHomeViewController.m in Sources */,
+				BDC91EDE1FADE4AD009CBF9B /* NLMineTableViewCell.m in Sources */,
+				BDC91ECF1FADE49A009CBF9B /* NLMyFansViewController.m in Sources */,
 				005DA11D1FAA04E300B4A013 /* NLBaseViewController.m in Sources */,
 				005DA1771FAC022800B4A013 /* NLChooseSexViewController.m in Sources */,
 				005DA1211FAA051B00B4A013 /* NLBaseTabBarViewController.m in Sources */,
-				005DA1851FAC4DE500B4A013 /* NLHomepagePartOne.m in Sources */,
 				005DA1401FAAA9A200B4A013 /* NLMoreFunctionViewController.m in Sources */,
+				BDC91EC31FADE46E009CBF9B /* NLMeModel.m in Sources */,
 				005DA1311FAAA94200B4A013 /* NLFindViewController.m in Sources */,
 				005DA1631FAB1A6900B4A013 /* NLRegisterViewController.m in Sources */,
-				005DA13B1FAAA98500B4A013 /* NLMineViewController.m in Sources */,
+				BDE6076D1FAD97C40089423E /* NLFocusViewController.m in Sources */,
 				005DA1681FAB21AD00B4A013 /* NLGetCodeViewController.m in Sources */,
 				005DA1361FAAA95B00B4A013 /* NLCommunityViewController.m in Sources */,
+				BDE6077C1FADA0D30089423E /* NLBannerImageModel.m in Sources */,
 				005DA0F41FA9EDE100B4A013 /* NLAppDelegate.m in Sources */,
+				BDC91ED01FADE49A009CBF9B /* NLMineViewController.m in Sources */,
 				005DA15F1FAB147E00B4A013 /* UIView+IBDesignable.m in Sources */,
+				BDC91EBA1FADE422009CBF9B /* NLHomepagePartThree.m in Sources */,
+				BDC91EE51FADE534009CBF9B /* NLNoteTableViewCell.m in Sources */,
+				BDE607761FAD98D70089423E /* UIScrollView+Refresh.m in Sources */,
+				BDE607751FAD98D70089423E /* UIViewController+Ext.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1016,11 +1180,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Peng Zeng (2CXQDXU7FY)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5EMFG9Z439;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Peng Zeng (2CXQDXU7FY)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/fanyi/Desktop/NiuLangSport/NiuLangSport/Macro/NLHeader.pch;
+				GCC_PREFIX_HEADER = /Users/shiren/Desktop/NiuLangSport/NiuLangSport/Macro/NLHeader.pch;
 				INFOPLIST_FILE = NiuLangSport/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1035,10 +1199,10 @@
 					"-framework",
 					"\"ReactiveObjC\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bjhl.pay;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shililuapp.houseplatform;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "690c51ae-fc88-4cd9-b2bf-e28640918046";
+				PROVISIONING_PROFILE_SPECIFIER = fangpingtai_wangwang_develop_profile;
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
@@ -1051,10 +1215,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Peng Zeng (2CXQDXU7FY)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5EMFG9Z439;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/fanyi/Desktop/NiuLangSport/NiuLangSport/Macro/NLHeader.pch;
+				GCC_PREFIX_HEADER = /Users/shiren/Desktop/NiuLangSport/NiuLangSport/Macro/NLHeader.pch;
 				INFOPLIST_FILE = NiuLangSport/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1069,10 +1233,10 @@
 					"-framework",
 					"\"ReactiveObjC\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bjhl.pay;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shililuapp.houseplatform;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "690c51ae-fc88-4cd9-b2bf-e28640918046";
+				PROVISIONING_PROFILE_SPECIFIER = fangpingtai_wangwang_develop_profile;
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};

@@ -10,6 +10,7 @@
 #import "NLHomepagePartOne.h"
 #import "NLHomepagePartTwo.h"
 #import "NLHomepagePartThree.h"
+#import "NLKcalCuonsumeView.h"
 
 @interface NLHomeViewController ()
 
@@ -38,6 +39,10 @@
     partOne.frame = (CGRect){0,0,SCREEN_W,partOneHeight};
     [self.view addSubview:partOne];
     
+    NLKcalCuonsumeView *cuonsumeView  =  [[NLKcalCuonsumeView alloc]initWithFrame:(CGRect){0,0,SCREEN_W,partOneHeight}];
+    cuonsumeView.backgroundColor = [UIColor clearColor];
+    [self.view addSubview:cuonsumeView];
+    
     CGFloat partTwoHeight = 80.0/667 * SCREEN_H ;
     NLHomepagePartTwo *partTwo = [[[NSBundle mainBundle]loadNibNamed:@"NLHomepagePartTwo" owner:self options:nil] lastObject];
     partTwo.frame = (CGRect){0,CGRectGetMaxY(partOne.frame),SCREEN_W,partTwoHeight};
@@ -54,7 +59,18 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+//-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+//{
+//    //1.创建转场动画对象
+//    CATransition *transition=[[CATransition alloc]init];
+//    transition.type = @"cube" ;
+//    transition.subtype=  @"fromTop" ;
+//    transition.duration = 1.5 ;
+//    testView.backgroundColor = [UIColor greenColor];
+//    //加载动画
+//    [testView.layer addAnimation:transition forKey:@"KCTransitionAnimation"];
+//    
+//}
 /*
 #pragma mark - Navigation
 

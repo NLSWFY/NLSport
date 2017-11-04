@@ -8,13 +8,24 @@
 
 #ifndef NLHeader_pch
 #define NLHeader_pch
- 
+
 
 #pragma mark --屏幕的相关定义
 
 #define     SCREEN_W                [UIScreen mainScreen].bounds.size.width
 #define     SCREEN_H                [UIScreen mainScreen].bounds.size.height
 #define     SCREEN_S                 [UIScreen mainScreen].bounds.size
+
+#define     ONEPX                   (1.0f / [UIScreen mainScreen].scale)
+
+#define IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+#define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define IS_RETINA ([[UIScreen mainScreen] scale] >= 2.0)
+
+#define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+#define SCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
+#define SCREEN_MAX_LENGTH (MAX(SCREEN_WIDTH, SCREEN_HEIGHT))
+#define SCREEN_MIN_LENGTH (MIN(SCREEN_WIDTH, SCREEN_HEIGHT))
 
 #define IS_IPHONE_4_OR_LESS (IS_IPHONE && SCREEN_MAX_LENGTH < 568.0)
 #define IS_IPHONE_5 (IS_IPHONE && SCREEN_MAX_LENGTH == 568.0)
@@ -51,5 +62,9 @@
 #import "NLGetCodeViewController.h"
 #import "NLRegisterViewController.h"
 #import "NLLoginViewController.h"
+#import "UIColor+Extension.h"
+#import "UIView+NLBorders.h"
+#import "UIScrollView+Refresh.h"
+#import "UIViewController+Ext.h"
 
 #endif /* NLHeader_pch */
