@@ -22,6 +22,7 @@
     [super viewDidLoad];
 
     self.view.backgroundColor = [UIColor nl_colorWithHexString:@"#f6f6f6"];
+    
     [self.view addSubview:self.tableView];
     
     if (@available(iOS 11.0, *)) {

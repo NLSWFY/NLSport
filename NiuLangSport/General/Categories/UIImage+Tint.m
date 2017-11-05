@@ -112,5 +112,20 @@
     return resultImage;
 }
 
++ (UIImage *)nl_imageWithColor:(UIColor *)color {
+    return [self nl_imageWithColor:color size:CGSizeMake(1., 1.)];
+}
+
++ (UIImage *)nl_imageWithColor:(UIColor *)color size:(CGSize)size {
+    CGRect rect = CGRectMake(0.0f, 0.0f, size.width, size.height);
+    UIGraphicsBeginImageContext(rect.size);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextSetFillColorWithColor(context, [color CGColor]);
+    CGContextFillRect(context, rect);
+    
+    UIImage *aImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return aImage;
+}
 
 @end

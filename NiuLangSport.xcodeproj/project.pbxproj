@@ -48,6 +48,7 @@
 		005DA1811FAC12AF00B4A013 /* NLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DA17F1FAC12AF00B4A013 /* NLLoginViewController.m */; };
 		005DA1821FAC12AF00B4A013 /* NLLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 005DA1801FAC12AF00B4A013 /* NLLoginViewController.xib */; };
 		8795A3826D5F48C0B2362ECB /* Pods_NiuLangSport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A033F49DAC41C45D7035B8D0 /* Pods_NiuLangSport.framework */; };
+		BD4018171FAEA2CC00947675 /* NLPublishArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4018161FAEA2CC00947675 /* NLPublishArticleViewController.m */; };
 		BDC91EAD1FADE40A009CBF9B /* NLHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDC91EAB1FADE40A009CBF9B /* NLHomeViewController.xib */; };
 		BDC91EAE1FADE40A009CBF9B /* NLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC91EAC1FADE40A009CBF9B /* NLHomeViewController.m */; };
 		BDC91EB81FADE422009CBF9B /* NLHomepagePartThree.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDC91EAF1FADE421009CBF9B /* NLHomepagePartThree.xib */; };
@@ -171,6 +172,8 @@
 		5C3438C9253B76B53135E8B4 /* Pods-NiuLangSport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiuLangSport.release.xcconfig"; path = "Pods/Target Support Files/Pods-NiuLangSport/Pods-NiuLangSport.release.xcconfig"; sourceTree = "<group>"; };
 		78296D2E4330BB6A1A8DC1D1 /* Pods-NiuLangSport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiuLangSport.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NiuLangSport/Pods-NiuLangSport.debug.xcconfig"; sourceTree = "<group>"; };
 		A033F49DAC41C45D7035B8D0 /* Pods_NiuLangSport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NiuLangSport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4018151FAEA2CC00947675 /* NLPublishArticleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLPublishArticleViewController.h; sourceTree = "<group>"; };
+		BD4018161FAEA2CC00947675 /* NLPublishArticleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLPublishArticleViewController.m; sourceTree = "<group>"; };
 		BDC91EAA1FADE40A009CBF9B /* NLHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLHomeViewController.h; sourceTree = "<group>"; };
 		BDC91EAB1FADE40A009CBF9B /* NLHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NLHomeViewController.xib; sourceTree = "<group>"; };
 		BDC91EAC1FADE40A009CBF9B /* NLHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLHomeViewController.m; sourceTree = "<group>"; };
@@ -328,6 +331,7 @@
 		005DA0F61FA9EE3800B4A013 /* AppClass */ = {
 			isa = PBXGroup;
 			children = (
+				BD4018131FAEA24500947675 /* Article */,
 				005DA0F71FA9EE3800B4A013 /* Community */,
 				005DA0FC1FA9EE3800B4A013 /* Find */,
 				005DA1011FA9EE3800B4A013 /* Home */,
@@ -739,6 +743,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BD4018131FAEA24500947675 /* Article */ = {
+			isa = PBXGroup;
+			children = (
+				BD4018141FAEA26500947675 /* ViewControllers */,
+			);
+			path = Article;
+			sourceTree = "<group>";
+		};
+		BD4018141FAEA26500947675 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BD4018151FAEA2CC00947675 /* NLPublishArticleViewController.h */,
+				BD4018161FAEA2CC00947675 /* NLPublishArticleViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1008,6 +1029,7 @@
 				BDC91ECF1FADE49A009CBF9B /* NLMyFansViewController.m in Sources */,
 				005DA11D1FAA04E300B4A013 /* NLBaseViewController.m in Sources */,
 				005DA1771FAC022800B4A013 /* NLChooseSexViewController.m in Sources */,
+				BD4018171FAEA2CC00947675 /* NLPublishArticleViewController.m in Sources */,
 				005DA1211FAA051B00B4A013 /* NLBaseTabBarViewController.m in Sources */,
 				005DA1401FAAA9A200B4A013 /* NLMoreFunctionViewController.m in Sources */,
 				BDC91EC31FADE46E009CBF9B /* NLMeModel.m in Sources */,

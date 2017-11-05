@@ -7,6 +7,7 @@
 //
 
 #import "NLCommunityViewController.h"
+#import "NLPublishArticleViewController.h"
 #import "NLRecommendViewController.h"
 #import "NLNearByViewController.h"
 #import "NLFocusViewController.h"
@@ -35,13 +36,6 @@
     
     [self setTopView];
     
-//    NLRecommendViewController *vc = [[NLRecommendViewController alloc] init];
-//    [self ext_addChildViewController:vc];
-//    [vc.view mas_makeConstraints:^(MASConstraintMaker *make) {
-//        make.left.right.offset(0);
-//        make.bottom.offset(-49);
-//        make.top.mas_equalTo(self.topView.mas_bottom);
-//    }];
     [self updateView];
     _selectIndex = 0;
 }
@@ -74,12 +68,12 @@
     
     UIButton *rightBtn = [UIButton new];
     [rightBtn setBackgroundColor:[UIColor blackColor]];
-    [rightBtn addTarget:self action:@selector(actionSheet:clickedButtonAtIndex:) forControlEvents:UIControlEventTouchUpInside];
+    [rightBtn addTarget:self action:@selector(onPublish:) forControlEvents:UIControlEventTouchUpInside];
     [self.topView addSubview:rightBtn];
     [rightBtn mas_makeConstraints:^(MASConstraintMaker *make) {
         make.right.offset(-18);
         make.bottom.offset(-14);
-        make.height.width.mas_equalTo(15);
+        make.height.width.mas_equalTo(20);
     }];
     
     [self.topView addSubview:self.segmentView];
@@ -136,6 +130,11 @@
         }
         pre = vc;
     }
+}
+
+- (void)onPublish:(id)sender {
+    NLPublishArticleViewController *publishArticleVC = [[NLPublishArticleViewController alloc] init];
+    [self.navigationController pushViewController:publishArticleVC animated:YES];
 }
 
 #pragma mark - UIScrollViewDelegate

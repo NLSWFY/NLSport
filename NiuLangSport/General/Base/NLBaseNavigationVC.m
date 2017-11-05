@@ -26,7 +26,7 @@
     self.navigationBar.barTintColor = NavColor ;
     self.navigationController.navigationBar.barStyle = UIBarStyleDefault ;
     self.navigationController.navigationBar.translucent = YES;
-    [[UINavigationBar appearance]setTitleTextAttributes:@{NSForegroundColorAttributeName: NavTextColor,NSFontAttributeName:[UIFont boldSystemFontOfSize:16.0f]}];
+    [[UINavigationBar appearance]setTitleTextAttributes:@{NSForegroundColorAttributeName: NavTextColor,NSFontAttributeName:[UIFont boldSystemFontOfSize:17.0f]}];
     
     
 }
