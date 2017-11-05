@@ -44,7 +44,7 @@
 #define RGB(r,g,b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1.0]
 #define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
 #define BaseColor   [UIColor colorWithRed:255/255.0 green:255/255.0 blue:255/255.0 alpha:1.0] //使用页面的底色
-#define  NavTextColor   [UIColor colorWithRed:237/255.0 green:52/255.0 blue:34/255.0 alpha:1.0] //导航栏文字的颜色
+#define  NavTextColor   [UIColor colorWithRed:0.2 green:0.2 blue:0.2 alpha:1.0] //导航栏文字的颜色
 #define TabbarItemTextColor   [UIColor colorWithRed:237/255.0 green:52/255.0 blue:34/255.0 alpha:1.0] //tabbar文字颜色
 #define NavColor  [UIColor colorWithRed:255/255.0 green:255/255.0 blue:255/255.0 alpha:1.0] //导航栏底色
 #define TabBarColor   [UIColor colorWithRed:255/255.0 green:255/255.0 blue:255/255.0 alpha:1.0] //tabbar底色

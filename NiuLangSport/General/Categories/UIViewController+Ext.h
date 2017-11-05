@@ -14,4 +14,6 @@
 
 - (void)ext_removeFromParentViewControllerAndSuperview;
 
+- (void)nl_setBackWithImage:(UIImage *)backImage;
+- (void)nl_onBack;
 @end

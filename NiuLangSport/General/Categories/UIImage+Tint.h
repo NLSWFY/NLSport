@@ -21,4 +21,9 @@
 //加水印
 - (UIImage *)imageWithWatermark;
 
+
++ (UIImage *)nl_imageWithColor:(UIColor *)color;
+
++ (UIImage *)nl_imageWithColor:(UIColor *)color size:(CGSize)size;
+
 @end

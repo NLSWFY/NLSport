@@ -7,6 +7,7 @@
 //
 
 #import "UIViewController+Ext.h"
+#import "UIImage+Tint.h"
 
 @implementation UIViewController (Ext)
 
@@ -26,4 +27,17 @@
     [self removeFromParentViewController];
 }
 
+#pragma mark - onback
+- (void)nl_setBackWithImage:(UIImage *)backImage {
+    UIBarButtonItem *theBarItem = [[UIBarButtonItem alloc] initWithImage:backImage style:UIBarButtonItemStylePlain target:self action:@selector(nl_onBack)];
+//    theBarItem.imageInsets = UIEdgeInsetsMake(5, 0, 0, 0);
+    if ([[UIDevice currentDevice].systemVersion floatValue] < 7.0) {
+        [theBarItem setBackgroundImage:[UIImage nl_imageWithColor:[UIColor clearColor] size:CGSizeMake(20, 40)] forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
+    }
+    self.navigationItem.leftBarButtonItem = theBarItem;
+}
+
+- (void)nl_onBack {
+    [self.navigationController popViewControllerAnimated:YES];
+}
 @end
